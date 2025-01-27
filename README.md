@@ -5,7 +5,7 @@
 <table align="center" style="font-size: 23px;">
     <tr>
         <td align="left"><b>Formation</b></td>
-        <td align="left">Master <i>Langue et Informatique</i> (M1), UFR Sociologie et Informatique pour les Sciences Humaines</td>
+        <td align="left">Master <i>Langue et Informatique</i> (M1 ScLan), UFR Sociologie et Informatique pour les Sciences Humaines</td>
     </tr>
     <tr style="background-color: white;">
         <td align="left"><b>Modalité</b></td>
