@@ -91,13 +91,13 @@
         <td align="right">4</td>
         <td align="center">...</td>
     </tr>
-    <tr style="background-color: #ffb4b4;">
+    <tr style="background-color: white;">
         <td align="center">Interruption d'études</td>
         <td align="right">28/02/2025</td>
         <td align="center"></td>
-        <td align="center">Pas de CM</td>
+        <td align="center">❌ Pas de CM</td>
         <td align="center"></td>
-        <td align="center">Pas de TD</td>
+        <td align="center">❌ Pas de TD</td>
     </tr>
         <tr>
         <td align="right">5</td>
