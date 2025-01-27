@@ -145,7 +145,7 @@ Ljudmila Petkovic, _Corpus, ressources et linguistique outillée (M2SOL034)_, Pa
 
 ### Contact
 
-ljudmila.petkovic[at]sorbonne-universite.fr
+`ljudmila.petkovic[at]sorbonne-universite.fr`
 
 ---
 
