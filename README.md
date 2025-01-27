@@ -113,7 +113,7 @@
         <td align="right">6</td>
         <td align="center">...</td>
         <td align="right">6</td>
-        <td align="center">bla</td>
+        <td align="center">...</td>
     </tr>
 </table>
 
