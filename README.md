@@ -138,7 +138,7 @@ Les utilisateurs de Mac et de Linux ne sont pas concernés (il suffit d'ouvrir l
 
 
 ### Évaluation (à voir)
-Contrôle continu : 2 dépôts sur Moodle.
+Contrôle continu : 2 dépôts sur Moodle (projets à réaliser sur ordinateur).
 
 ### Citer ce dépôt
 
