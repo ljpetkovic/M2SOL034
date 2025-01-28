@@ -137,6 +137,9 @@ Pour les utilisateurs de Windows, installer [Git Bash](https://git-scm.com/downl
 Les utilisateurs de Mac et de Linux ne sont pas concernés (il suffit d'ouvrir l'application `Terminal`) et d'y lancer directement les commandes et les scripts Bash.-->
 
 
+### Évaluation (à voir)
+Contrôle continu : 2 dépôts sur Moodle.
+
 ### Citer ce dépôt
 
 Ljudmila Petkovic, _Corpus, ressources et linguistique outillée (M2SOL034)_, Paris : université Sorbonne Université, 2025 https://github.com/ljpetkovic/M2SOL034
