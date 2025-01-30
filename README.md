@@ -63,9 +63,9 @@
         <td align="right">1</td>
         <td align="right">31/01/2025</td>
         <td align="right">1</td>
-        <td align="center"></td>
+        <td align="center">Introduction, notions de base et aperçu du cours</td>
         <td align="right">1</td>
-        <td align="center">...</td>
+        <td align="center">Panorama des outils de TAL</td>
     </tr>
         <tr>
         <td align="right">2</td>
