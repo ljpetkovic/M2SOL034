@@ -63,7 +63,7 @@
         <td align="right">1</td>
         <td align="right">31/01/2025</td>
         <td align="right">1</td>
-        <td align="center">...</td>
+        <td align="center"></td>
         <td align="right">1</td>
         <td align="center">...</td>
     </tr>
@@ -71,25 +71,25 @@
         <td align="right">2</td>
         <td align="right">07/02/2025</td>
         <td align="right">2</td>
-        <td align="center">...</td>
+        <td align="center">Fondamentaux de la textométrie et expressions régulières</td>
         <td align="right">2</td>
-        <td align="center">...</td>
+        <td align="center">TXM I</td>
     </tr>
     <tr style="background-color: white;">
         <td align="right">3</td>
         <td align="right">14/02/2025</td>
         <td align="right">3</td>
-        <td align="center">...</td>
+        <td align="center">TXM : niveau avancé</td>
         <td align="right">3</td>
-        <td align="center">...</td>
+        <td align="center">TXM II</td>
     </tr>
         <tr>
         <td align="right">4</td>
         <td align="right">21/02/2025</td>
         <td align="right">4</td>
-        <td align="center">...</td>
+        <td align="center">Automates finis</td>
         <td align="right">4</td>
-        <td align="center">...</td>
+        <td align="center">Unitex</td>
     </tr>
     <tr style="background-color: white;">
         <td align="center">Interruption d'études</td>
@@ -103,17 +103,17 @@
         <td align="right">5</td>
         <td align="right">07/03/2025</td>
         <td align="right">5</td>
-        <td align="center">...</td>
+        <td align="center">Reconnaissance d’entités nommées</td>
         <td align="right">5</td>
-        <td align="center">...</td>
+        <td align="center">`spaCy`</td>
     </tr>
     <tr style="background-color: white;">
         <td align="right">6</td>
         <td align="right">14/03/2025</td>
         <td align="right">6</td>
-        <td align="center">...</td>
+        <td align="center">Présentations des étudiant·e·s</td>
         <td align="right">6</td>
-        <td align="center">...</td>
+        <td align="center">Présentations des étudiant·e·s</td>
     </tr>
 </table>
 
