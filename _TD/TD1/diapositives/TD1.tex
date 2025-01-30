@@ -1,0 +1,109 @@
+\documentclass[xcolor={table,usenames,dvipsnames}]{article}
+
+\usepackage[french]{babel}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}  % Adds spacing between paragraphs
+
+
+\usepackage{tcolorbox} % For the title box
+\usepackage{xcolor}    % For colors
+\usepackage{graphicx}  % For inserting images
+\definecolor{BlueViolet}{RGB}{5, 9, 141} % Define the missing BlueViolet color
+\usepackage{hyperref}  % For clickable Table of Contents
+ \hypersetup{
+	colorlinks=true,      % Enable colored links
+	linkcolor=violet,        % Color for internal links (sections, equations, etc.)
+	citecolor=BlueViolet,      % Color for citations
+	filecolor=magenta,    % Color for file links
+	urlcolor=BlueViolet         % Color for URLs
+}
+
+
+
+
+\let\oldnocite\nocite
+\makeatletter
+\renewcommand*{\nocite}[1]{\oldnocite{#1}\Hy@backout{#1}}
+\makeatother
+
+
+
+\usepackage[style=authoryear, maxbibnames=99, mincitenames=1, maxcitenames=2, backref=true, hyperref=true, dashed=false, firstinits=true, backend=bibtex, bibencoding=utf8, uniquename=false, uniquelist=false, natbib=true]{biblatex}
+\renewcommand*{\bibfont}{\scriptsize}
+
+% Remove quotation marks from titles
+\DeclareFieldFormat[article,incollection,inproceedings,conference]{title}{#1} 
+
+% Define a custom color for the title box
+\definecolor{myblue}{RGB}{44, 62, 80}
+
+\addbibresource{bibliographie.bib} 
+
+\author{Ljudmila PETKOVI\'C}
+\title{\textbf{\textsc{M2SOL034} Corpus, ressources et linguistique outillée}}
+
+\begin{document}
+	
+	% Insert the logo at the top (centered)
+	\begin{center}
+		\includegraphics[width=3cm]{img/logo.png} % Adjust width as needed
+	\end{center}
+	
+	% Create a rectangle around the title
+	\begin{tcolorbox}[colback=myblue!10, colframe=myblue, width=\textwidth, sharp corners, boxrule=1pt]
+		\centering
+		\Large \textbf{\textsc{M2SOL034} Corpus, ressources et linguistique outillée\\{\large\textsc{TD1} : Loi de Zipf et pré-traitement du texte}}
+	\end{tcolorbox}
+	
+	\begin{center}
+		Ljudmila PETKOVI\'C
+		
+		{\small Sorbonne Université\\Master \og{}Langue et Informatique\fg{} (\textsc{M1} ScLan)\\\textsc{UFR} Sociologie et Informatique pour les Sciences Humaines\\Semestre 2, 2024-2025}
+	\end{center}
+	
+
+
+		
+	% Hyperlinked Table of Contents
+	\tableofcontents
+	
+	\bigskip
+	Les ressources pour le \textsc{TD1} sont disponibles sur le dépôt GitHub :\\ \url{https://github.com/ljpetkovic/M2SOL034/tree/main/\_TD/TD1}. 
+	
+	Vous pouvez utiliser Jupyter Notebook ou Google Colab (si vous optez pour la dernière méthode, les liens dédiés sont fournis pour chaque exercice).
+	
+	\section{Pré-traitement du texte}  % Clickable in ToC
+	L'objectif de cet exercice est de mettre en pratique quelques concepts fondamentaux du \textsc{TAL} : tokenisation, lemmatization, racinisation et la segmentation de phrases.
+	
+	Suivez le tutoriel \texttt{1\_nlp\_basics\_tokenization\_segmentation.ipynb} de \textcite{saravia} et complétez quatre exercices proposés.
+	\begin{enumerate}
+		\item copiez le code indiqué dans le tutoriel et ajoutez des espaces supplémentaires à la valeur de chaîne attribuée à la variable \texttt{doc} et identifiez le problème avec le code. Essayez ensuite de résoudre le problème. Astuce : utilisez \texttt{text.strip()} pour résoudre le problème ;
+		\item essayez le code indiqué avec différentes phrases et voyez si vous obtenez des résultats inattendus. Essayez également d'ajouter des ponctuations et des espaces supplémentaires, plus courants dans le langage naturel. Que se passe-t-il ? ;
+		\item essayez d'utiliser différentes phrases dans le code indiqué et observez l'effet du racinisateur ;
+		\item créez votre propre algorithme de segmentation de phrases en utilisant \texttt{spaCy}.
+	\end{enumerate}
+	
+	\section{Loi de Zipf}  % Clickable in ToC
+	
+	L'objectif de cet exercice est d'implémenter la loi de Zipf en Python.
+	
+	\bigskip
+	
+	À partir du script \texttt{Zipf\_exo.ipynb}, réaliser les étapes suivantes :
+	\begin{enumerate}
+		\item Charger un texte depuis le fichier \texttt{zipf.txt}
+		\item Pré-traiter le texte : convertir le texte en minuscules
+		\item Compter la fréquence des mots
+		\item Trier les mots par fréquence
+		\item Extraire les fréquences et les rangs
+		\item  Afficher les mots avec leurs fréquences
+		\item Tracer la loi de Zipf
+	\end{enumerate}
+	
+
+	
+
+		\printbibliography
+
+	
+\end{document}
