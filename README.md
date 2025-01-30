@@ -79,7 +79,7 @@
         <td align="right">3</td>
         <td align="right">14/02/2025</td>
         <td align="right">3</td>
-        <td align="center">TXM : niveau avancé</td>
+        <td align="center">Textométrie avancée</td>
         <td align="right">3</td>
         <td align="center">TXM II</td>
     </tr>
