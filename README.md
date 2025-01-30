@@ -138,7 +138,7 @@ Les utilisateurs de Mac et de Linux ne sont pas concernés (il suffit d'ouvrir l
 
 
 ### Évaluation (à voir)
-* contrôle continu rendus en TD (25 %) 
+* contrôle continu : rendus en TD (25 %) 
 * contrôle continu : présentations des étudiant·e·s (25 %)
 * examen final (50 %)
 
