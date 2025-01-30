@@ -138,7 +138,11 @@ Les utilisateurs de Mac et de Linux ne sont pas concernés (il suffit d'ouvrir l
 
 
 ### Évaluation (à voir)
-Contrôle continu : 2 dépôts sur Moodle (projets à réaliser sur ordinateur).
+* contrôle continu rendus en TD (25 %) 
+* contrôle continu : présentations des étudiant·e·s (25 %)
+* examen final (50 %)
+
+Les projets seront à réaliser sur ordinateur.
 
 ### Citer ce dépôt
 
