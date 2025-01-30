@@ -105,7 +105,7 @@
         <td align="right">5</td>
         <td align="center">Reconnaissance d’entités nommées</td>
         <td align="right">5</td>
-        <td align="center">`spaCy`</td>
+        <td align="center"><code>spaCy</code></td>
     </tr>
     <tr style="background-color: white;">
         <td align="right">6</td>
