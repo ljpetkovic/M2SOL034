@@ -65,7 +65,7 @@
         <td align="right">1</td>
         <td align="center">Introduction, notions de base et aperçu du cours</td>
         <td align="right">1</td>
-        <td align="center">Panorama des outils de TAL</td>
+        <td align="center">Loi de Zipf ; Pré-traitement du texte</td>
     </tr>
         <tr>
         <td align="right">2</td>
