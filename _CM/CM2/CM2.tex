@@ -711,7 +711,41 @@ Le pivot peut être :
 	\end{itemize}
 \end{frame}
 
-\section{Bien démarrer avec \texttt{TXM}}
+
+
+\begin{frame}{Indice de spécificité}
+	\begin{block}{\vspace{-6mm}}
+		\justifying
+		Le calcul des spécificités \citep{lafon1980variabilite} mesure le caractère attendu ou exceptionnel de la fréquence
+	d'un mot (ou motif complexe, trait linguistique, etc.) dans une partie du corpus, au regard de sa fréquence dans l’ensemble du corpus et de la taille de la partie.
+	\end{block}
+	\begin{flushright}
+		\small
+		\citep{pincemin2022semantique}
+	\end{flushright}
+\end{frame}
+
+\begin{frame}{Cooccurrences}
+	\begin{itemize}
+		\item méthode qui vise à repérer les attirances lexicales, de toutes natures, se distinguant plutôt par leur portée :
+		\begin{itemize}
+		\item figement lexical, champ sémantique,
+		phraséologie, contraintes syntaxiques
+		\end{itemize} 
+		\item permet de calculer les cooccurrents d'une forme, d'un lemme, de la succession d'un lemme et d'une catégorie, etc.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Cooccurrences}
+		\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=1\linewidth]{img/cooccurrences.png}
+		\caption{Les cooccurrents du mot \texttt{hystérie} avec leurs fréquences et les indices de spécificité : corpus \texttt{CHARCOT}.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
+
+\section{Bien (re)démarrer avec \texttt{TXM}}
 
 \begin{frame}{Installation}
 	Téléchargement du logiciel + extension \texttt{TreeTagger} et prérequis :\\ \url{https://txm.gitpages.huma-num.fr/textometrie/files/software/TXM/0.8.3/}

@@ -42,6 +42,36 @@
     \field{year}{\textit{s.d.}}
   \endentry
 
+  \entry{lafon1980variabilite}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Lafon},
+         familyi={L\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ENS Editions}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+  \field{note}{\url{https://www.persee.fr/doc/mots\_0243-6450\_1980\_num\_1\_1\_1008}}
+    \field{number}{1}
+    \field{pages}{127\bibrangedash 165}
+    \field{title}{Sur la variabilit{\'e} de la fr{\'e}quence des formes dans un
+  corpus}
+    \field{volume}{1}
+    \field{journaltitle}{Mots. Les langages du politique}
+    \field{year}{1980}
+  \endentry
+
   \entry{lejeune2023}{misc}{}
     \name{author}{1}{}{%
       {{hash=LG}{%
@@ -64,6 +94,34 @@
     \field{note}{Consulté le \today}
     \field{title}{\texttt{TXM} : la Textométrie à portée de clic}
     \field{year}{2023}
+  \endentry
+
+  \entry{pincemin2022semantique}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pincemin},
+         familyi={P\bibinitperiod},
+         given={B{\'e}n{\'e}dicte},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Presses universitaires de Rennes}%
+    }
+    \strng{namehash}{PB1}
+    \strng{fullhash}{PB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{\url{https://shs.hal.science/halshs-03763801/document}}
+    \field{pages}{373\bibrangedash 396}
+    \field{title}{S{\'e}mantique textom{\'e}trique}
+    \field{journaltitle}{La s{\'e}mantique au pluriel. Th{\'e}ories et
+  m{\'e}thodes}
+    \field{year}{2022}
   \endentry
 
   \entry{pincemin2008}{misc}{}

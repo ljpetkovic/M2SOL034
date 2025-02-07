@@ -62,45 +62,45 @@ Name 1 in "Pincemin, Bénédicte, and Heiden, Serge" has a comma at the end for 
 while executing---line 2815 of file biblatex.bst
 Name 1 in "Pincemin, Bénédicte, and Heiden, Serge" has a comma at the end for entry pincemin2008
 while executing---line 2815 of file biblatex.bst
-You've used 4 entries,
+You've used 6 entries,
             6399 wiz_defined-function locations,
-            1219 strings with 9590 characters,
-and the built_in function-call counts, 16382 in all, are:
-= -- 1041
-> -- 346
-< -- 81
-+ -- 423
-- -- 129
-* -- 1077
-:= -- 1851
+            1235 strings with 10053 characters,
+and the built_in function-call counts, 27089 in all, are:
+= -- 1791
+> -- 548
+< -- 174
++ -- 649
+- -- 177
+* -- 1762
+:= -- 2743
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 30
+call.type$ -- 6
+change.case$ -- 97
 chr.to.int$ -- 44
-cite$ -- 6
-duplicate$ -- 1753
-empty$ -- 1507
-format.name$ -- 161
-if$ -- 3398
+cite$ -- 10
+duplicate$ -- 2939
+empty$ -- 2526
+format.name$ -- 257
+if$ -- 5729
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 12
 missing$ -- 0
-newline$ -- 95
-num.names$ -- 123
-pop$ -- 1076
+newline$ -- 151
+num.names$ -- 255
+pop$ -- 1734
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 110
 quote$ -- 0
-skip$ -- 571
+skip$ -- 1025
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 410
-text.length$ -- 101
-text.prefix$ -- 3
+substring$ -- 2739
+swap$ -- 749
+text.length$ -- 150
+text.prefix$ -- 5
 top$ -- 1
-type$ -- 124
+type$ -- 192
 warning$ -- 0
-while$ -- 257
+while$ -- 367
 width$ -- 0
-write$ -- 92
+write$ -- 146
 (There were 20 error messages)

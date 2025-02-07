@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 06:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 07:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1790,12 +1790,37 @@ File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [25
 
-] [26
+]
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+[26
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [27
+
+]
+File: img/cooccurrences.png Graphic file (type bmp)
+<img/cooccurrences.png>
+
+Overfull \vbox (2.15654pt too high) detected at line 746
+ []
+
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+[28
+
+] [29
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [30
 
 ]
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -1806,12 +1831,20 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 722.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 756.
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 722.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 756.
 
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
@@ -1824,7 +1857,13 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[28
+[31
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [32
+
 
 ]
 \tf@nav=\write7
@@ -1844,18 +1883,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CM2.out' has not changed.
-(rerunfilecheck)             Checksum: 4E4CDB96879BD0E6835071FA77834541;571.
+(rerunfilecheck)             Checksum: 917326D30FAAAF1D1CDE89C232DDC452;597.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CM2.run.xml'.
 \openout1 = `CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40492 strings out of 476683
- 856806 string characters out of 5804046
- 1862018 words of memory out of 5000000
- 59942 multiletter control sequences out of 15000+600000
+ 40522 strings out of 476683
+ 857610 string characters out of 5804046
+ 1864018 words of memory out of 5000000
+ 59971 multiletter control sequences out of 15000+600000
  523605 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,1886b,5322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1886b,5492s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM2.pdf (28 pages).
+Output written on CM2.pdf (32 pages).
