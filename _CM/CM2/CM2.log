@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 08:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 18:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -762,7 +762,21 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count334
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 12.
@@ -772,14 +786,14 @@ File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2023/02/13 3.86 The Babel package
-\babel@savecnt=\count334
+\babel@savecnt=\count335
 \U@D=\dimen296
 \l@unhyphenated=\language87
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 4088.
-\bbl@dirlevel=\count335
+\bbl@dirlevel=\count336
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -796,7 +810,7 @@ Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language29). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
 (babel)             (\language29). Reported on input line 92.
-\FB@nonchar=\count336
+\FB@nonchar=\count337
 Package french.ldf Info: No need for active punctuation characters
 (french.ldf)             with this version of XeTeX!
 (french.ldf)             reported on input line 310.
@@ -806,14 +820,14 @@ Package french.ldf Info: No need for active punctuation characters
 \FB@guilo=\XeTeXcharclass4
 \FB@guilf=\XeTeXcharclass5
 \FB@guilnul=\XeTeXcharclass6
-\FBguill@level=\count337
-\FBold@everypar=\toks49
+\FBguill@level=\count338
+\FBold@everypar=\toks51
 \FB@Mht=\dimen297
-\mc@charclass=\count338
-\mc@charfam=\count339
-\mc@charslot=\count340
-\std@mcc=\count341
-\dec@mcc=\count342
+\mc@charclass=\count339
+\mc@charfam=\count340
+\mc@charslot=\count341
+\std@mcc=\count342
+\dec@mcc=\count343
 \FB@parskip=\dimen298
 \listindentFB=\dimen299
 \descindentFB=\dimen300
@@ -834,7 +848,7 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 Package french.ldf Info: No list customisation for the beamer class,
-(french.ldf)             reported on input line 7.
+(french.ldf)             reported on input line 8.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
@@ -846,8 +860,8 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen308
 \TX@target=\dimen309
 \TX@delta=\dimen310
-\TX@cols=\count343
-\TX@ftn=\toks50
+\TX@cols=\count344
+\TX@ftn=\toks52
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
@@ -872,14 +886,14 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 \TPboxrulesize=\dimen315
 \TP@ox=\dimen316
 \TP@oy=\dimen317
-\TP@tbargs=\toks51
+\TP@tbargs=\toks53
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count344
+\lrq@indent=\count345
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -887,49 +901,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count345
-\c@listtotal=\count346
-\c@listcount=\count347
-\c@liststart=\count348
-\c@liststop=\count349
-\c@citecount=\count350
-\c@citetotal=\count351
-\c@multicitecount=\count352
-\c@multicitetotal=\count353
-\c@instcount=\count354
-\c@maxnames=\count355
-\c@minnames=\count356
-\c@maxitems=\count357
-\c@minitems=\count358
-\c@citecounter=\count359
-\c@maxcitecounter=\count360
-\c@savedcitecounter=\count361
-\c@uniquelist=\count362
-\c@uniquename=\count363
-\c@refsection=\count364
-\c@refsegment=\count365
-\c@maxextratitle=\count366
-\c@maxextratitleyear=\count367
-\c@maxextraname=\count368
-\c@maxextradate=\count369
-\c@maxextraalpha=\count370
-\c@abbrvpenalty=\count371
-\c@highnamepenalty=\count372
-\c@lownamepenalty=\count373
-\c@maxparens=\count374
-\c@parenlevel=\count375
-\blx@tempcnta=\count376
-\blx@tempcntb=\count377
-\blx@tempcntc=\count378
-\c@blx@maxsection=\count379
-\blx@maxsegment@0=\count380
-\blx@notetype=\count381
-\blx@parenlevel@text=\count382
-\blx@parenlevel@foot=\count383
-\blx@sectionciteorder@0=\count384
-\blx@sectionciteorderinternal@0=\count385
-\blx@entrysetcounter=\count386
-\blx@biblioinstance=\count387
+\c@tabx@nest=\count346
+\c@listtotal=\count347
+\c@listcount=\count348
+\c@liststart=\count349
+\c@liststop=\count350
+\c@citecount=\count351
+\c@citetotal=\count352
+\c@multicitecount=\count353
+\c@multicitetotal=\count354
+\c@instcount=\count355
+\c@maxnames=\count356
+\c@minnames=\count357
+\c@maxitems=\count358
+\c@minitems=\count359
+\c@citecounter=\count360
+\c@maxcitecounter=\count361
+\c@savedcitecounter=\count362
+\c@uniquelist=\count363
+\c@uniquename=\count364
+\c@refsection=\count365
+\c@refsegment=\count366
+\c@maxextratitle=\count367
+\c@maxextratitleyear=\count368
+\c@maxextraname=\count369
+\c@maxextradate=\count370
+\c@maxextraalpha=\count371
+\c@abbrvpenalty=\count372
+\c@highnamepenalty=\count373
+\c@lownamepenalty=\count374
+\c@maxparens=\count375
+\c@parenlevel=\count376
+\blx@tempcnta=\count377
+\blx@tempcntb=\count378
+\blx@tempcntc=\count379
+\c@blx@maxsection=\count380
+\blx@maxsegment@0=\count381
+\blx@notetype=\count382
+\blx@parenlevel@text=\count383
+\blx@parenlevel@foot=\count384
+\blx@sectionciteorder@0=\count385
+\blx@sectionciteorderinternal@0=\count386
+\blx@entrysetcounter=\count387
+\blx@biblioinstance=\count388
 \labelnumberwidth=\skip82
 \labelalphawidth=\skip83
 \biblabelsep=\skip84
@@ -941,9 +955,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language88
-\c@mincomprange=\count388
-\c@maxcomprange=\count389
-\c@mincompwidth=\count390
+\c@mincomprange=\count389
+\c@maxcomprange=\count390
+\c@mincompwidth=\count391
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -954,74 +968,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count391
-\c@savedafterword=\count392
-\c@annotator=\count393
-\c@savedannotator=\count394
-\c@author=\count395
-\c@savedauthor=\count396
-\c@bookauthor=\count397
-\c@savedbookauthor=\count398
-\c@commentator=\count399
-\c@savedcommentator=\count400
-\c@editor=\count401
-\c@savededitor=\count402
-\c@editora=\count403
-\c@savededitora=\count404
-\c@editorb=\count405
-\c@savededitorb=\count406
-\c@editorc=\count407
-\c@savededitorc=\count408
-\c@foreword=\count409
-\c@savedforeword=\count410
-\c@holder=\count411
-\c@savedholder=\count412
-\c@introduction=\count413
-\c@savedintroduction=\count414
-\c@namea=\count415
-\c@savednamea=\count416
-\c@nameb=\count417
-\c@savednameb=\count418
-\c@namec=\count419
-\c@savednamec=\count420
-\c@translator=\count421
-\c@savedtranslator=\count422
-\c@shortauthor=\count423
-\c@savedshortauthor=\count424
-\c@shorteditor=\count425
-\c@savedshorteditor=\count426
-\c@labelname=\count427
-\c@savedlabelname=\count428
-\c@institution=\count429
-\c@savedinstitution=\count430
-\c@lista=\count431
-\c@savedlista=\count432
-\c@listb=\count433
-\c@savedlistb=\count434
-\c@listc=\count435
-\c@savedlistc=\count436
-\c@listd=\count437
-\c@savedlistd=\count438
-\c@liste=\count439
-\c@savedliste=\count440
-\c@listf=\count441
-\c@savedlistf=\count442
-\c@location=\count443
-\c@savedlocation=\count444
-\c@organization=\count445
-\c@savedorganization=\count446
-\c@origlocation=\count447
-\c@savedoriglocation=\count448
-\c@origpublisher=\count449
-\c@savedorigpublisher=\count450
-\c@publisher=\count451
-\c@savedpublisher=\count452
-\c@language=\count453
-\c@savedlanguage=\count454
-\c@origlanguage=\count455
-\c@savedoriglanguage=\count456
-\c@pageref=\count457
-\c@savedpageref=\count458
+\c@afterword=\count392
+\c@savedafterword=\count393
+\c@annotator=\count394
+\c@savedannotator=\count395
+\c@author=\count396
+\c@savedauthor=\count397
+\c@bookauthor=\count398
+\c@savedbookauthor=\count399
+\c@commentator=\count400
+\c@savedcommentator=\count401
+\c@editor=\count402
+\c@savededitor=\count403
+\c@editora=\count404
+\c@savededitora=\count405
+\c@editorb=\count406
+\c@savededitorb=\count407
+\c@editorc=\count408
+\c@savededitorc=\count409
+\c@foreword=\count410
+\c@savedforeword=\count411
+\c@holder=\count412
+\c@savedholder=\count413
+\c@introduction=\count414
+\c@savedintroduction=\count415
+\c@namea=\count416
+\c@savednamea=\count417
+\c@nameb=\count418
+\c@savednameb=\count419
+\c@namec=\count420
+\c@savednamec=\count421
+\c@translator=\count422
+\c@savedtranslator=\count423
+\c@shortauthor=\count424
+\c@savedshortauthor=\count425
+\c@shorteditor=\count426
+\c@savedshorteditor=\count427
+\c@labelname=\count428
+\c@savedlabelname=\count429
+\c@institution=\count430
+\c@savedinstitution=\count431
+\c@lista=\count432
+\c@savedlista=\count433
+\c@listb=\count434
+\c@savedlistb=\count435
+\c@listc=\count436
+\c@savedlistc=\count437
+\c@listd=\count438
+\c@savedlistd=\count439
+\c@liste=\count440
+\c@savedliste=\count441
+\c@listf=\count442
+\c@savedlistf=\count443
+\c@location=\count444
+\c@savedlocation=\count445
+\c@organization=\count446
+\c@savedorganization=\count447
+\c@origlocation=\count448
+\c@savedoriglocation=\count449
+\c@origpublisher=\count450
+\c@savedorigpublisher=\count451
+\c@publisher=\count452
+\c@savedpublisher=\count453
+\c@language=\count454
+\c@savedlanguage=\count455
+\c@origlanguage=\count456
+\c@savedoriglanguage=\count457
+\c@pageref=\count458
+\c@savedpageref=\count459
 \shorthandwidth=\skip90
 \shortjournalwidth=\skip91
 \shortserieswidth=\skip92
@@ -1061,19 +1075,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count459
-\c@textcitetotal=\count460
-\c@textcitemaxnames=\count461
-\c@biburlbigbreakpenalty=\count462
-\c@biburlbreakpenalty=\count463
-\c@biburlnumpenalty=\count464
-\c@biburlucpenalty=\count465
-\c@biburllcpenalty=\count466
+\c@textcitecount=\count460
+\c@textcitetotal=\count461
+\c@textcitemaxnames=\count462
+\c@biburlbigbreakpenalty=\count463
+\c@biburlbreakpenalty=\count464
+\c@biburlnumpenalty=\count465
+\c@biburlucpenalty=\count466
+\c@biburllcpenalty=\count467
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count467
+\c@smartand=\count468
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1093,8 +1107,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count468
-\c@bbx:relatedtotal=\count469
+\c@bbx:relatedcount=\count469
+\c@bbx:relatedtotal=\count470
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1127,11 +1141,11 @@ Package: expl3 2023-02-22 L3 programming layer (loader)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
-\g__graphics_track_int=\count470
+\g__graphics_track_int=\count471
 \l__pdf_internal_box=\box81
-\g__pdf_backend_object_int=\count471
-\g__pdf_backend_annotation_int=\count472
-\g__pdf_backend_link_int=\count473
+\g__pdf_backend_object_int=\count472
+\g__pdf_backend_annotation_int=\count473
+\g__pdf_backend_link_int=\count474
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-02-22 L3 programming layer (loader) 
@@ -1147,8 +1161,8 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 (/usr/local/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen318
-\c@nlinenum=\count474
-\TeXr@lab=\toks52
+\c@nlinenum=\count475
+\TeXr@lab=\toks54
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
@@ -1162,7 +1176,7 @@ Package: shadowtext 2012/05/07 v0.3 Shadow Text
 \st@pic@width=\skip108
 \st@pic@height=\skip109
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/beamertheme-metropolis/beamerthem
 emetropolis.sty
@@ -1170,8 +1184,8 @@ Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks53
-\pgfopts@list@add@b@toks=\toks54
+\pgfopts@list@add@a@toks=\toks55
+\pgfopts@list@add@b@toks=\toks56
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/beamertheme-metropolis/beamerinne
 rthememetropolis.sty
@@ -1179,15 +1193,15 @@ Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count475
-\calc@Bcount=\count476
+\calc@Acount=\count476
+\calc@Bcount=\count477
 \calc@Adimen=\dimen319
 \calc@Bdimen=\dimen320
 \calc@Askip=\skip110
 \calc@Bskip=\skip111
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count477
+\calc@Ccount=\count478
 \calc@Cskip=\skip112
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -1218,8 +1232,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen323
 \pgffor@skip=\dimen324
-\pgffor@stack=\toks55
-\pgffor@toks=\toks56
+\pgffor@stack=\toks57
+\pgffor@toks=\toks58
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1228,7 +1242,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count478
+\pgf@plot@mark@count=\count479
 \pgfplotmarksize=\dimen325
 )
 \tikz@lastx=\dimen326
@@ -1243,19 +1257,19 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box84
 \tikz@tempbox=\box85
 \tikz@tempbox@bg=\box86
-\tikztreelevel=\count479
-\tikznumberofchildren=\count480
-\tikznumberofcurrentchild=\count481
-\tikz@fig@count=\count482
+\tikztreelevel=\count480
+\tikznumberofchildren=\count481
+\tikznumberofcurrentchild=\count482
+\tikz@fig@count=\count483
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count483
-\pgfmatrixcurrentcolumn=\count484
-\pgf@matrix@numberofcolumns=\count485
+\pgfmatrixcurrentrow=\count484
+\pgfmatrixcurrentcolumn=\count485
+\pgf@matrix@numberofcolumns=\count486
 )
-\tikz@expandcount=\count486
+\tikz@expandcount=\count487
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1295,17 +1309,17 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count487
-\l__fontspec_language_int=\count488
-\l__fontspec_strnum_int=\count489
-\l__fontspec_tmp_int=\count490
-\l__fontspec_tmpa_int=\count491
-\l__fontspec_tmpb_int=\count492
-\l__fontspec_tmpc_int=\count493
-\l__fontspec_em_int=\count494
-\l__fontspec_emdef_int=\count495
-\l__fontspec_strong_int=\count496
-\l__fontspec_strongdef_int=\count497
+\l__fontspec_script_int=\count488
+\l__fontspec_language_int=\count489
+\l__fontspec_strnum_int=\count490
+\l__fontspec_tmp_int=\count491
+\l__fontspec_tmpa_int=\count492
+\l__fontspec_tmpb_int=\count493
+\l__fontspec_tmpc_int=\count494
+\l__fontspec_em_int=\count495
+\l__fontspec_emdef_int=\count496
+\l__fontspec_strong_int=\count497
+\l__fontspec_strongdef_int=\count498
 \l__fontspec_tmpa_dim=\dimen334
 \l__fontspec_tmpb_dim=\dimen335
 \l__fontspec_tmpc_dim=\dimen336
@@ -1314,7 +1328,7 @@ X
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-\c@fontsnotfound=\count498
+\c@fontsnotfound=\count499
 
 
 Package beamerthememetropolis Warning: Could not find Fira Sans fonts on input 
@@ -1327,22 +1341,22 @@ line 95.
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/beamer/beamerfontthemeprofessiona
 lfonts.sty) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count499
+\lst@mode=\count500
 \lst@gtempboxa=\box87
-\lst@token=\toks57
-\lst@length=\count500
+\lst@token=\toks59
+\lst@length=\count501
 \lst@currlwidth=\dimen337
-\lst@column=\count501
-\lst@pos=\count502
+\lst@column=\count502
+\lst@pos=\count503
 \lst@lostspace=\dimen338
 \lst@width=\dimen339
-\lst@newlines=\count503
-\lst@lineno=\count504
+\lst@newlines=\count504
+\lst@lineno=\count505
 \lst@maxwidth=\dimen340
 (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count505
-\lst@skipnumbers=\count506
+\c@lstnumber=\count506
+\lst@skipnumbers=\count507
 \lst@framebox=\box88
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
@@ -1376,8 +1390,8 @@ Package caption Info: french babel package is loaded.
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count507
-\c@continuedfloat=\count508
+\c@caption@flags=\count508
+\c@continuedfloat=\count509
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1423,17 +1437,17 @@ Package pgfshade Warning: This package is obsolete. pgf.sty will load shade man
 agement automatically on input line 17.
 
 )
-Package biblatex Info: Redefining '\cite' on input line 290.
-Package biblatex Info: Redefining '\parencite' on input line 304.
-Package biblatex Info: Redefining '\footcite' on input line 318.
-Package biblatex Info: Redefining '\footcitetext' on input line 325.
+Package biblatex Info: Redefining '\cite' on input line 292.
+Package biblatex Info: Redefining '\parencite' on input line 306.
+Package biblatex Info: Redefining '\footcite' on input line 320.
+Package biblatex Info: Redefining '\footcitetext' on input line 327.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count509
-\@quotereset=\count510
+\@quotelevel=\count510
+\@quotereset=\count511
 (./CM2.aux
 
 LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
@@ -1462,31 +1476,31 @@ LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 )
 \openout1 = `CM2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 376.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 379.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-76.
+79.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 379.
+LaTeX Font Info:    ... okay on input line 379.
 
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1521,7 +1535,7 @@ LaTeX Font Info:    ... okay on input line 376.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 376.
+Package hyperref Info: Link coloring ON on input line 379.
 (./CM2.out) (./CM2.out)
 \@outlinefile=\write6
 \openout6 = `CM2.out'.
@@ -1551,7 +1565,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \up on input line 376.
+LaTeX Info: Redefining \up on input line 379.
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
@@ -1578,28 +1592,28 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CM2.bbl' found.
 
 (./CM2.bbl)
-Package biblatex Info: Reference section=0 on input line 376.
-Package biblatex Info: Reference segment=0 on input line 376.
-\c@lstlisting=\count511
+Package biblatex Info: Reference section=0 on input line 379.
+Package biblatex Info: Reference segment=0 on input line 379.
+\c@lstlisting=\count512
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./CM2.nav)
 
 LaTeX Font Warning: Font shape `TU/lmss/bx/sc' undefined
-(Font)              using `TU/lmss/bx/n' instead on input line 376.
+(Font)              using `TU/lmss/bx/n' instead on input line 379.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 376.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 379.
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 381.
+(hyperref)                setting the option has no effect on input line 384.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 387
+LaTeX Font Info:    Trying to load font information for U+msa on input line 391
 .
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 387
+LaTeX Font Info:    Trying to load font information for U+msb on input line 391
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1607,16 +1621,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <8> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 387.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 391.
 
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <6> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 387.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 391.
 
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 387.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 391.
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
@@ -1624,12 +1638,12 @@ ng=tex-text;!
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
 
  []
 
 
-Overfull \vbox (42.62393pt too high) detected at line 387
+Overfull \vbox (42.62393pt too high) detected at line 391
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1640,7 +1654,7 @@ File: img/logo.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 406.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 410.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [3
@@ -1658,13 +1672,13 @@ File: img/logo.png Graphic file (type bmp)
 ]
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 459.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 463.
 
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 459.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 463.
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
@@ -1682,12 +1696,12 @@ File: img/logo.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 497.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 501.
  [9
 
 ]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 516.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 520.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [10
@@ -1696,7 +1710,7 @@ File: img/logo.png Graphic file (type bmp)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 531.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 535.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [11
@@ -1727,7 +1741,7 @@ File: img/logo.png Graphic file (type bmp)
 File: img/concordances.png Graphic file (type bmp)
 <img/concordances.png>
 
-Overfull \vbox (34.43808pt too high) detected at line 601
+Overfull \vbox (34.43808pt too high) detected at line 605
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1764,7 +1778,7 @@ File: img/logo.png Graphic file (type bmp)
 File: img/frequences.png Graphic file (type bmp)
 <img/frequences.png>
 
-Overfull \vbox (7.68315pt too high) detected at line 658
+Overfull \vbox (7.68315pt too high) detected at line 662
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1773,7 +1787,7 @@ File: img/logo.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 675.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 679.
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
@@ -1823,7 +1837,7 @@ File: img/logo.png Graphic file (type bmp)
 File: img/cooccurrences.png Graphic file (type bmp)
 <img/cooccurrences.png>
 
-Overfull \vbox (2.15654pt too high) detected at line 766
+Overfull \vbox (2.15654pt too high) detected at line 770
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1846,11 +1860,11 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 776.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 780.
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 776.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 780.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -1881,6 +1895,13 @@ File: img/logo.png Graphic file (type bmp)
 
 
 ]
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.95pt on input line 786.
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [34
+
+]
 \tf@nav=\write7
 \openout7 = `CM2.nav'.
 
@@ -1904,12 +1925,12 @@ Package logreq Info: Writing requests to 'CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40527 strings out of 476683
- 857653 string characters out of 5804046
+ 40833 strings out of 476683
+ 862540 string characters out of 5804046
  1864018 words of memory out of 5000000
- 59976 multiletter control sequences out of 15000+600000
- 523605 words of font info for 103 fonts, out of 8000000 for 9000
+ 60268 multiletter control sequences out of 15000+600000
+ 523636 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,1886b,5509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1886b,5698s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM2.pdf (33 pages).
+Output written on CM2.pdf (34 pages).
