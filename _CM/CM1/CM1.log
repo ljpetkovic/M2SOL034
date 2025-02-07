@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 02:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 03:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1626,20 +1626,27 @@ File: img/logo.png Graphic file (type bmp)
 File: img/linguistique_outillee_TAL.png Graphic file (type bmp)
 <img/linguistique_outillee_TAL.png>
 
-
-LaTeX Warning: Citation 'hodac' on page 7 undefined on input line 443.
-
-
-LaTeX Warning: Citation 'hodac' on page 7 undefined on input line 443.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 443.
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [7
 
 ]
 
-LaTeX Warning: Citation 'loock2017web' on page 8 undefined on input line 466.
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10.95> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 466.
 
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [8
@@ -1650,19 +1657,12 @@ File: img/logo.png Graphic file (type bmp)
  [9
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 502.
-
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
 (Font)              Font shape `TU/lmr/m/sc' tried instead on input line 502.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 502.
-
-LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 502.
-
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [10
@@ -1671,12 +1671,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/ecosysteme.png Graphic file (type bmp)
 <img/ecosysteme.png>
 
-
-LaTeX Warning: Citation 'boisson' on page 11 undefined on input line 512.
-
-
-LaTeX Warning: Citation 'boisson' on page 11 undefined on input line 512.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [11
@@ -1684,13 +1682,10 @@ File: img/logo.png Graphic file (type bmp)
 ] [12
 
 ]
-
-LaTeX Warning: Citation 'poibeau' on page 13 undefined on input line 544.
-
-
-LaTeX Warning: Citation 'yvon2010petite' on page 13 undefined on input line 544
-.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [13
@@ -1704,12 +1699,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/evolution.png Graphic file (type bmp)
 <img/evolution.png>
 
-
-LaTeX Warning: Citation 'chiusano2022' on page 15 undefined on input line 569.
-
-
-LaTeX Warning: Citation 'chiusano2022' on page 15 undefined on input line 569.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 
 Overfull \vbox (14.70961pt too high) detected at line 569
  []
@@ -1734,14 +1727,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/plongements.png Graphic file (type bmp)
 <img/plongements.png>
 
-
-LaTeX Warning: Citation 'manikanth2024' on page 18 undefined on input line 607.
-
-
-
-LaTeX Warning: Citation 'manikanth2024' on page 18 undefined on input line 607.
-
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 
 Overfull \vbox (11.92488pt too high) detected at line 607
  []
@@ -1751,9 +1740,8 @@ File: img/logo.png Graphic file (type bmp)
 [18
 
 ]
-
-LaTeX Warning: Citation 'chomsky1957' on page 19 undefined on input line 624.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 LaTeX Font Info:    Trying to load font information for U+ding on input line 62
 4.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/bbding/Uding.fd
@@ -1793,12 +1781,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/tokenisation.png Graphic file (type bmp)
 <img/tokenisation.png>
 
-
-LaTeX Warning: Citation 'saravia' on page 24 undefined on input line 727.
-
-
-LaTeX Warning: Citation 'saravia' on page 24 undefined on input line 727.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [24
@@ -1807,12 +1793,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/segmentation_phrases.png Graphic file (type bmp)
 <img/segmentation_phrases.png>
 
-
-LaTeX Warning: Citation 'saravia' on page 25 undefined on input line 742.
-
-
-LaTeX Warning: Citation 'saravia' on page 25 undefined on input line 742.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [25
@@ -1821,12 +1805,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/lemmatisation.png Graphic file (type bmp)
 <img/lemmatisation.png>
 
-
-LaTeX Warning: Citation 'saravia' on page 26 undefined on input line 756.
-
-
-LaTeX Warning: Citation 'saravia' on page 26 undefined on input line 756.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [26
@@ -1835,12 +1817,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/racinisation.png Graphic file (type bmp)
 <img/racinisation.png>
 
-
-LaTeX Warning: Citation 'saravia' on page 27 undefined on input line 771.
-
-
-LaTeX Warning: Citation 'saravia' on page 27 undefined on input line 771.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [27
@@ -1849,12 +1829,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/etiquetage.png Graphic file (type bmp)
 <img/etiquetage.png>
 
-
-LaTeX Warning: Citation 'wang2021' on page 28 undefined on input line 785.
-
-
-LaTeX Warning: Citation 'wang2021' on page 28 undefined on input line 785.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [28
@@ -1899,12 +1877,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/zipf.png Graphic file (type bmp)
 <img/zipf.png>
 
-
-LaTeX Warning: Citation 'rherrad' on page 32 undefined on input line 846.
-
-
-LaTeX Warning: Citation 'rherrad' on page 32 undefined on input line 846.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [32
@@ -1913,12 +1889,10 @@ File: img/logo.png Graphic file (type bmp)
 File: img/optimisation_zipf.png Graphic file (type bmp)
 <img/optimisation_zipf.png>
 
-
-LaTeX Warning: Citation 'rherrad' on page 33 undefined on input line 855.
-
-
-LaTeX Warning: Citation 'rherrad' on page 33 undefined on input line 855.
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 
 Overfull \vbox (16.42406pt too high) detected at line 855
  []
@@ -1928,16 +1902,85 @@ File: img/logo.png Graphic file (type bmp)
 [33
 
 ]
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
 
-LaTeX Warning: Empty bibliography on input line 860.
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 860.
 
+Missing character: There is no ʼ (U+02BC) in font [lmsans10-regular]:mapping=te
+x-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 
-Underfull \vbox (badness 1062) detected at line 860
- []
+LaTeX Font Warning: Font shape `TU/lmss/bx/scit' undefined
+(Font)              using `TU/lmss/bx/sc' instead on input line 860.
 
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [34
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [35
+
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [36
+
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [37
+
 
 ]
 \tf@nav=\write7
@@ -1954,29 +1997,21 @@ File: img/logo.png Graphic file (type bmp)
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CM1.out' has not changed.
-(rerunfilecheck)             Checksum: 1836BDD97DC496703FA1CE2168EFD86C;378.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                CM1
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: BEE95B79C514CF0136788C1688FA6581;477.
 Package logreq Info: Writing requests to 'CM1.run.xml'.
 \openout1 = `CM1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40463 strings out of 476683
- 855770 string characters out of 5804046
- 1856018 words of memory out of 5000000
- 59917 multiletter control sequences out of 15000+600000
- 523678 words of font info for 95 fonts, out of 8000000 for 9000
+ 40620 strings out of 476683
+ 860094 string characters out of 5804046
+ 1874018 words of memory out of 5000000
+ 60072 multiletter control sequences out of 15000+600000
+ 523694 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,122p,1886b,5211s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,122p,1886b,5568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM1.pdf (34 pages).
+Output written on CM1.pdf (37 pages).
