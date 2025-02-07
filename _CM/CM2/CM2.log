@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 06:16
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 06:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1806,11 +1806,11 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 721.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 722.
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 721.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 722.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -1850,11 +1850,11 @@ Package logreq Info: Writing requests to 'CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40489 strings out of 476683
- 856745 string characters out of 5804046
- 1861018 words of memory out of 5000000
- 59941 multiletter control sequences out of 15000+600000
- 523597 words of font info for 102 fonts, out of 8000000 for 9000
+ 40492 strings out of 476683
+ 856806 string characters out of 5804046
+ 1862018 words of memory out of 5000000
+ 59942 multiletter control sequences out of 15000+600000
+ 523605 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
