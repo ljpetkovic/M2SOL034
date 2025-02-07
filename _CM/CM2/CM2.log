@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 05:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 05:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1731,71 +1731,81 @@ File: img/logo.png Graphic file (type bmp)
  [17
 
 ]
-File: img/propriete_pivot.png Graphic file (type bmp)
-<img/propriete_pivot.png>
+File: img/proprietes_pivot.png Graphic file (type bmp)
+<img/proprietes_pivot.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [18
 
 ]
+File: img/affichage_proprietes_pivot.png Graphic file (type bmp)
+<img/affichage_proprietes_pivot.png>
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [19
+
+]
 File: img/frequences.png Graphic file (type bmp)
 <img/frequences.png>
 
-Overfull \vbox (7.68315pt too high) detected at line 641
+Overfull \vbox (7.68315pt too high) detected at line 650
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[19
+[20
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 658.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 667.
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [20
+ [21
 
 ]
 File: img/lexique.png Graphic file (type bmp)
 <img/lexique.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [21
+ [22
 
 ]
 File: img/index.png Graphic file (type bmp)
 <img/index.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [22
-
-]
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
  [23
 
-] [24
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [24
+
+] [25
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [25
+ [26
 
 ]
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
+Overfull \hbox (10.47246pt too wide) in paragraph at lines 703--703
+[][][]  
+ []
 
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 694.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 703.
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 694.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 703.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -1809,7 +1819,7 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[26
+[27
 
 ]
 \tf@nav=\write7
@@ -1830,17 +1840,21 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CM2.out' has not changed.
 (rerunfilecheck)             Checksum: 4E4CDB96879BD0E6835071FA77834541;571.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CM2.run.xml'.
 \openout1 = `CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40475 strings out of 476683
- 856354 string characters out of 5804046
+ 40485 strings out of 476683
+ 856713 string characters out of 5804046
  1861018 words of memory out of 5000000
- 59929 multiletter control sequences out of 15000+600000
- 523589 words of font info for 101 fonts, out of 8000000 for 9000
+ 59937 multiletter control sequences out of 15000+600000
+ 523597 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM2.pdf (26 pages).
+Output written on CM2.pdf (27 pages).
