@@ -63,17 +63,17 @@
         <td align="right">1</td>
         <td align="right">31/01/2025</td>
         <td align="right">1</td>
-        <td align="center">Introduction, notions de base et aperçu du cours</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM1/CM1.pdf">Introduction, notions de base et aperçu du cours</a></td>
         <td align="right">1</td>
-        <td align="center">Loi de Zipf ; Pré-traitement du texte</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/tree/main/_TD/TD1">Loi de Zipf ; Pré-traitement du texte</a></td>
     </tr>
         <tr>
         <td align="right">2</td>
         <td align="right">07/02/2025</td>
         <td align="right">2</td>
-        <td align="center">Fondamentaux de la textométrie et TXM</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM2/CM2.pdf">Fondamentaux de la textométrie et TXM</a></td>
         <td align="right">2</td>
-        <td align="center">TXM I</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/tree/main/_TD/TD2">TXM I</a></td>
     </tr>
     <tr style="background-color: white;">
         <td align="right">3</td>
