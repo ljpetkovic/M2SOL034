@@ -1,4 +1,4 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Les \@FB@og {}métries\@FB@fg \relax {}}{2}{0}{1}
 \beamer@sectionintoc {2}{(Ré)introduction à \texttt {TXM}}{9}{0}{2}
-\beamer@sectionintoc {3}{Bien (re)démarrer avec \texttt {TXM}}{29}{0}{3}
+\beamer@sectionintoc {3}{Bien (re)démarrer avec \texttt {TXM}}{30}{0}{3}

@@ -562,6 +562,14 @@ Vision globale, qualitative, respectant une pluralité de réponses
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Lexique}
+		\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=1\linewidth]{img/lexique.png}
+		\caption{Liste des formes dans le corpus \texttt{VOEUX}.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
 \begin{frame}{Concordances}
 	Vue synthétique des occurrences d'une forme (d'un motif) :
 	\begin{itemize}
@@ -714,6 +722,9 @@ Le pivot peut être :
 
 
 \begin{frame}{Indice de spécificité}
+	\begin{itemize}
+		\item indicateur statistique de présence
+	\end{itemize}
 	\begin{block}{\vspace{-6mm}}
 		\justifying
 		Le calcul des spécificités \citep{lafon1980variabilite} mesure le caractère attendu ou exceptionnel de la fréquence
@@ -734,13 +745,22 @@ Le pivot peut être :
 		\end{itemize} 
 		\item permet de calculer les cooccurrents d'une forme, d'un lemme, de la succession d'un lemme et d'une catégorie, etc.
 	\end{itemize}
+		\begin{flushright}
+		\small
+		\citep{pincemin2022semantique}
+	\end{flushright}
+	\bolder{Fréquence} totale du cooccurrent dans le corpus \\
+	\bolder{Co-fréquence} : fréquence du cooccurrent avec son pivot\\
+	\bolder{Indice de spécificité} : plus $\nearrow$, plus
+	la cooccurrence est remarquable\\
+	\bolder{Distance moyenne} entre le cooccurrent et le pivot
 \end{frame}
 
 \begin{frame}{Cooccurrences}
 		\begin{figure}[h] % Use [H] to force the figure to stay in place
 		\centering
 		\includegraphics[width=1\linewidth]{img/cooccurrences.png}
-		\caption{Les cooccurrents du mot \texttt{hystérie} avec leurs fréquences et les indices de spécificité : corpus \texttt{CHARCOT}.}
+		\caption{Les cooccurrents du mot \texttt{hystérie} avec leurs fréquences, leurs co-fréquences, leurs indices de spécificité et leurs distances moyennes : corpus \texttt{CHARCOT}.}
 		\label{fig:ling_out_TAL}
 	\end{figure}
 \end{frame}
