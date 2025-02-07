@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 18:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 19:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1473,6 +1473,9 @@ LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
 LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
+
+LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
+
 )
 \openout1 = `CM2.aux'.
 
@@ -1721,93 +1724,99 @@ File: img/logo.png Graphic file (type bmp)
  [12
 
 ]
+File: img/concordances.png Graphic file (type bmp)
+<img/concordances.png>
+
+Overfull \vbox (1.6284pt too high) detected at line 562
+ []
+
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [13
+[13
+
+]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [14
 
 ]
 File: img/lexique.png Graphic file (type bmp)
 <img/lexique.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [14
+ [15
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [15
+ [16
 
 ]
 File: img/concordances.png Graphic file (type bmp)
 <img/concordances.png>
 
-Overfull \vbox (34.43808pt too high) detected at line 605
+Overfull \vbox (34.43808pt too high) detected at line 615
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[16
+[17
 
 ]
 File: img/ville.png Graphic file (type bmp)
 <img/ville.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [17
+ [18
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [18
+ [19
 
 ]
 File: img/proprietes_pivot.png Graphic file (type bmp)
 <img/proprietes_pivot.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [19
+ [20
 
 ]
 File: img/affichage_proprietes_pivot.png Graphic file (type bmp)
 <img/affichage_proprietes_pivot.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [20
+ [21
 
 ]
 File: img/frequences.png Graphic file (type bmp)
 <img/frequences.png>
 
-Overfull \vbox (7.68315pt too high) detected at line 662
+Overfull \vbox (7.68315pt too high) detected at line 672
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[21
+[22
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 679.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 689.
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [22
+ [23
 
 ]
 File: img/lexique.png Graphic file (type bmp)
 <img/lexique.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [23
+ [24
 
 ]
 File: img/index.png Graphic file (type bmp)
 <img/index.png>
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
- [24
-
-]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [25
@@ -1818,15 +1827,13 @@ File: img/logo.png Graphic file (type bmp)
  [26
 
 ]
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[27
+ [27
 
 ]
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
@@ -1834,22 +1841,29 @@ File: img/logo.png Graphic file (type bmp)
 [28
 
 ]
-File: img/cooccurrences.png Graphic file (type bmp)
-<img/cooccurrences.png>
-
-Overfull \vbox (2.15654pt too high) detected at line 770
- []
-
+Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
+ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [29
 
-] [30
+]
+File: img/cooccurrences.png Graphic file (type bmp)
+<img/cooccurrences.png>
+
+Overfull \vbox (2.15654pt too high) detected at line 780
+ []
+
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+[30
+
+] [31
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [31
+ [32
 
 ]
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -1860,11 +1874,11 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 780.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 790.
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 780.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 790.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -1886,20 +1900,20 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[32
+[33
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [33
+ [34
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 786.
+(Font)              scaled to size 10.95pt on input line 796.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [34
+ [35
 
 ]
 \tf@nav=\write7
@@ -1925,12 +1939,12 @@ Package logreq Info: Writing requests to 'CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40833 strings out of 476683
- 862540 string characters out of 5804046
+ 40835 strings out of 476683
+ 862556 string characters out of 5804046
  1864018 words of memory out of 5000000
- 60268 multiletter control sequences out of 15000+600000
+ 60270 multiletter control sequences out of 15000+600000
  523636 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5698s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM2.pdf (34 pages).
+Output written on CM2.pdf (35 pages).
