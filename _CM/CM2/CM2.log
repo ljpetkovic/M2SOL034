@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 19:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 20:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1724,10 +1724,10 @@ File: img/logo.png Graphic file (type bmp)
  [12
 
 ]
-File: img/concordances.png Graphic file (type bmp)
-<img/concordances.png>
+File: img/import_charcot.png Graphic file (type bmp)
+<img/import_charcot.png>
 
-Overfull \vbox (1.23909pt too high) detected at line 562
+Overfull \vbox (11.64221pt too high) detected at line 562
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1939,10 +1939,10 @@ Package logreq Info: Writing requests to 'CM2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40835 strings out of 476683
- 862556 string characters out of 5804046
+ 40843 strings out of 476683
+ 862763 string characters out of 5804046
  1864018 words of memory out of 5000000
- 60270 multiletter control sequences out of 15000+600000
+ 60277 multiletter control sequences out of 15000+600000
  523636 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5698s stack positions out of 10000i,1000n,20000p,200000b,200000s
