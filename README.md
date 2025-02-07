@@ -71,7 +71,7 @@
         <td align="right">2</td>
         <td align="right">07/02/2025</td>
         <td align="right">2</td>
-        <td align="center">Fondamentaux de la textométrie et expressions régulières</td>
+        <td align="center">Fondamentaux de la textométrie et TXM</td>
         <td align="right">2</td>
         <td align="center">TXM I</td>
     </tr>
