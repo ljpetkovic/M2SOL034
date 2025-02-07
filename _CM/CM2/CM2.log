@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 20:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  7 FEB 2025 20:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1726,13 +1726,9 @@ File: img/logo.png Graphic file (type bmp)
 ]
 File: img/import_charcot.png Graphic file (type bmp)
 <img/import_charcot.png>
-
-Overfull \vbox (11.64221pt too high) detected at line 562
- []
-
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[13
+ [13
 
 ]
 File: img/logo.png Graphic file (type bmp)
