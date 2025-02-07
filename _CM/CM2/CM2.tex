@@ -684,6 +684,24 @@ Le pivot peut être :
 	\end{figure}
 \end{frame}
 
+\begin{frame}{\textsc{CQL} -- \textit{Corpus Query Language}}
+	\begin{itemize}
+		\item expressions régulières : 
+		\begin{itemize}
+		\item \texttt{Europe|européen.∗}, \texttt{[]} (un mot)
+		\item \texttt{\&} et \texttt{|} (opérateurs booléens)
+		\end{itemize}
+		\item neutralisations (à ajouter après l’expression) :
+		\begin{itemize}
+			\item \texttt{\%c} pour neutraliser la casse (\texttt{"europe"\%c})
+			\item \texttt{\%d} pour neutraliser les diacritiques (accents, cédille)
+			\item $\dots$
+		\end{itemize}
+		\item assistant de requête
+		\item tri du contexte droit et du contexte gauche
+	\end{itemize}
+\end{frame}
+
 \begin{frame}{Relation entre \texttt{TXM} et \textsc{TAL}}
 	\texttt{TXM} n’est pas un outil de \textsc{TAL} en tant que tel, mais 
 	\begin{itemize}
