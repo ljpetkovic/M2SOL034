@@ -1,0 +1,226 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{benzecri1979}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BJP}{%
+         family={Benz{\'e}cri},
+         familyi={B\bibinitperiod},
+         given={Jean-Paul},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Paris, Dunod.}%
+    }
+    \strng{namehash}{BJP1}
+    \strng{fullhash}{BJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{L’analyse Des Données : La Taxinomie (3\ieme{}, Vol. I)}
+    \field{year}{1979}
+  \endentry
+
+  \entry{benzecri1973analyse}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BJPt}{%
+         family={Benz{\'e}cri},
+         familyi={B\bibinitperiod},
+         given={Jean-Paul\bibnamedelima \textit{et al.}},
+         giveni={J\bibinithyphendelim P\bibinitperiod\bibinitdelim
+  t\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Paris, Dunod.}%
+    }
+    \strng{namehash}{BJPt1}
+    \strng{fullhash}{BJPt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1973}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{L'Analyse des données, Tome 1 : La taxinomie, Tome 2 :
+  L'analyse des correspondances}
+    \field{year}{1973}
+  \endentry
+
+  \entry{fort}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FK}{%
+         family={Fort},
+         familyi={F\bibinitperiod},
+         given={Karën},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FK1}
+    \strng{fullhash}{FK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{\textit{s.d.}}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{howpublished}{Cours \og{}Corpus, ressources et linguistique
+  outillée\fg{},
+  \url{https://members.loria.fr/KFort/files/fichiers\_cours/TXM\_1.pdf}}
+    \field{note}{Consulté le \today}
+    \field{title}{\texttt{TXM} : présentation et commandes de base}
+    \field{year}{\textit{s.d.}}
+  \endentry
+
+  \entry{heiden}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Heiden},
+         familyi={H\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{\textit{s.d.}}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{howpublished}{Tutoriel,
+  \url{https://txm.gitpages.huma-num.fr/textometrie/files/course\%20materials/Diapositives\%20-\%20Atelier\%20preparation\%20de\%20corpus\%20et\%20import\%20dans\%20TXM.pdf}}
+    \field{note}{Consulté le \today}
+    \field{title}{Atelier préparation de corpus et import dans \texttt{TXM}}
+    \field{year}{\textit{s.d.}}
+  \endentry
+
+  \entry{lafon1980variabilite}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Lafon},
+         familyi={L\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ENS Editions}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+  \field{note}{\url{https://www.persee.fr/doc/mots\_0243-6450\_1980\_num\_1\_1\_1008}}
+    \field{number}{1}
+    \field{pages}{127\bibrangedash 165}
+    \field{title}{Sur la variabilit{\'e} de la fr{\'e}quence des formes dans un
+  corpus}
+    \field{volume}{1}
+    \field{journaltitle}{Mots. Les langages du politique}
+    \field{year}{1980}
+  \endentry
+
+  \entry{lejeune2023}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LG}{%
+         family={Lejeune},
+         familyi={L\bibinitperiod},
+         given={Gaël},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LG1}
+    \strng{fullhash}{LG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{howpublished}{Atelier TXM (Textométrie),
+  \url{https://ceres.sorbonne-universite.fr/83ff891969d7e024646d832126d47f82/CERES-TXM.pdf}}
+    \field{note}{Consulté le \today}
+    \field{title}{\texttt{TXM} : la Textométrie à portée de clic}
+    \field{year}{2023}
+  \endentry
+
+  \entry{pincemin2022semantique}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pincemin},
+         familyi={P\bibinitperiod},
+         given={B{\'e}n{\'e}dicte},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Presses universitaires de Rennes}%
+    }
+    \strng{namehash}{PB1}
+    \strng{fullhash}{PB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{note}{\url{https://shs.hal.science/halshs-03763801/}}
+    \field{pages}{373\bibrangedash 396}
+    \field{title}{S{\'e}mantique textom{\'e}trique}
+    \field{journaltitle}{La s{\'e}mantique au pluriel. Th{\'e}ories et
+  m{\'e}thodes}
+    \field{year}{2022}
+  \endentry
+
+  \entry{pincemin2012}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pincemin},
+         familyi={P\bibinitperiod},
+         given={Bénédicte},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PB2}
+    \strng{fullhash}{PB2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{Tutoriel,
+  \url{https://txm.gitpages.huma-num.fr/textometrie/html/enregistrement\_atelier\_initiation\_TXM\_fr.html}}
+    \field{note}{Consulté le \today}
+    \field{title}{Atelier d'initiation à \texttt{TXM} de Bénédicte Pincemin
+  du 27 septembre 2012}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput
