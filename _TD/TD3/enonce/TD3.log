@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 10:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 16:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -960,17 +960,17 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 104.
+(Font)              <7> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 104.
+(Font)              <5> on input line 103.
 
-Overfull \hbox (0.75pt too wide) in paragraph at lines 103--105
+Overfull \hbox (0.75pt too wide) in paragraph at lines 103--104
 [][][][][][][][][] [] [][] [] [][][] [] [][][][][][][][][][][][][][][] [] [][] 
 [] [][][][] [] [][][][][][] [] [][][][][][][] [] [][][] []
  []
 
 
-Overfull \hbox (34.32892pt too wide) in paragraph at lines 105--106
+Overfull \hbox (34.32892pt too wide) in paragraph at lines 104--105
 []\TU/lmr/m/n/10 l’importer dans \TU/lmr/m/sc/10 TXM \TU/lmr/m/n/10 (option [][
 ][][][][] 
  []
@@ -987,16 +987,16 @@ File: img/afc.png Graphic file (type bmp)
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.171 \hline
+l.170 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-LaTeX Warning: Empty bibliography on input line 173.
+LaTeX Warning: Empty bibliography on input line 172.
 
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 178.
+(Font)              scaled to size 10.0pt on input line 177.
 [4] (./TD3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
