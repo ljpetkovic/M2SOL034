@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 08:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 08:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1483,6 +1483,9 @@ LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
 
+LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
+
+
 LaTeX Warning: Label `fig:a' multiply defined.
 
 
@@ -1862,7 +1865,7 @@ ng=tex-text;!
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 
-Overfull \vbox (9.48204pt too high) detected at line 592
+Overfull \vbox (9.48204pt too high) detected at line 594
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -1881,7 +1884,14 @@ File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [20
 
-] [21
+]
+File: img/generer_progression.png Graphic file (type bmp)
+<img/generer_progression.png>
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [21
+
+] [22
 
 ]
 File: img/partition_sous-corpus.png Graphic file (type bmp)
@@ -1893,7 +1903,7 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[22
+[23
 
 ]
 File: img/partition.png Graphic file (type bmp)
@@ -1902,99 +1912,99 @@ File: img/partition_mitterrand.png Graphic file (type bmp)
 <img/partition_mitterrand.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [23
+ [24
 
 ]
 File: img/dimensions.png Graphic file (type bmp)
 <img/dimensions.png>
 
-Overfull \vbox (0.26079pt too high) detected at line 657
+Overfull \vbox (0.26079pt too high) detected at line 670
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[24
+[25
 
 ]
 File: img/dimensions_mitterrand.png Graphic file (type bmp)
 <img/dimensions_mitterrand.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [25
+ [26
 
 ]
 File: img/ambition.png Graphic file (type bmp)
 <img/ambition.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [26
+ [27
 
 ]
 File: img/table_lexicale.png Graphic file (type bmp)
 <img/table_lexicale.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [27
+ [28
 
 ]
 File: img/diagramme_batons.png Graphic file (type bmp)
 <img/diagramme_batons.png>
 
-Overfull \vbox (6.32378pt too high) detected at line 704
+Overfull \vbox (6.32378pt too high) detected at line 717
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[28
+[29
 
 ]
 Missing character: There is no ​ (U+200B) in font [lmsans10-bold]:mapping=tex-t
 ext;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[29
+[30
 
 ]
 File: img/specificites.png Graphic file (type bmp)
 <img/specificites.png>
 
-Overfull \vbox (7.82619pt too high) detected at line 734
+Overfull \vbox (7.82619pt too high) detected at line 747
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[30
+[31
 
 ]
 File: img/ambition_specificites.png Graphic file (type bmp)
 <img/ambition_specificites.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [31
+ [32
 
 ]
 File: img/ambition_angleterre.png Graphic file (type bmp)
 <img/ambition_angleterre.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [32
+ [33
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [33
+ [34
 
 ]
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[34
+[35
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [35
+ [36
 
 ]
 File: img/generer_afc.png Graphic file (type bmp)
@@ -2003,23 +2013,23 @@ File: img/generer_afc.png Graphic file (type bmp)
 Missing character: There is no ​ (U+200B) in font [lmsans10-bold]:mapping=tex-t
 ext;!
 
-Overfull \vbox (7.42886pt too high) detected at line 815
- []
-
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
-[36
-
-]
-File: img/afc.png Graphic file (type bmp)
-<img/afc.png>
-
-Overfull \vbox (7.77695pt too high) detected at line 823
+Overfull \vbox (7.42886pt too high) detected at line 828
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [37
+
+]
+File: img/afc.png Graphic file (type bmp)
+<img/afc.png>
+
+Overfull \vbox (7.77695pt too high) detected at line 836
+ []
+
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+[38
 
 ]
 File: img/classif.png Graphic file (type bmp)
@@ -2028,24 +2038,24 @@ File: img/classif.png Graphic file (type bmp)
 Missing character: There is no ​ (U+200B) in font [lmsans10-bold]:mapping=tex-t
 ext;!
 
-Overfull \vbox (11.7811pt too high) detected at line 839
+Overfull \vbox (11.7811pt too high) detected at line 852
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[38
+[39
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [39
+ [40
 
 ]
 File: img/cah.png Graphic file (type bmp)
 <img/cah.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [40
+ [41
 
 ]
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -2056,12 +2066,12 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 862.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 875.
 
 Missing character: There is no   (U+202F) in font [lmsans10-boldoblique]:mappin
 g=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <7.11742> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 862.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 875.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -2073,7 +2083,7 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 862.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 875.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -2097,20 +2107,20 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[41
+[42
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [42
+ [43
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 868.
+(Font)              scaled to size 10.95pt on input line 881.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [43
+ [44
 
 ]
 \tf@nav=\write7
@@ -2136,12 +2146,12 @@ Package logreq Info: Writing requests to 'CM3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41047 strings out of 476683
- 867698 string characters out of 5804046
- 1869018 words of memory out of 5000000
- 60464 multiletter control sequences out of 15000+600000
+ 41057 strings out of 476683
+ 867963 string characters out of 5804046
+ 1868018 words of memory out of 5000000
+ 60473 multiletter control sequences out of 15000+600000
  523628 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5734s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM3.pdf (43 pages).
+Output written on CM3.pdf (44 pages).

@@ -1,4 +1,4 @@
 \babel@toc {french}{}\relax 
 \beamer@sectionintoc {1}{Types de corpus et d'import}{2}{0}{1}
 \beamer@sectionintoc {2}{Autres fonctionnalités \texttt {TXM}}{18}{0}{2}
-\beamer@sectionintoc {3}{Comparer au sein d'un corpus}{21}{0}{3}
+\beamer@sectionintoc {3}{Comparer au sein d'un corpus}{22}{0}{3}
