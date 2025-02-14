@@ -89,17 +89,19 @@
 \headcommand {\beamer@framepages {40}{40}}
 \headcommand {\slideentry {3}{0}{20}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@sectionpages {22}{41}}
-\headcommand {\beamer@subsectionpages {22}{41}}
-\headcommand {\sectionentry {4}{R\'ef\'erences}{42}{R\'ef\'erences}{0}}
-\headcommand {\slideentry {4}{0}{0}{42/42}{}{0}}
+\headcommand {\slideentry {3}{0}{21}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {4}{0}{0}{42/43}{}{0}}
-\headcommand {\beamer@framepages {42}{43}}
-\headcommand {\slideentry {4}{0}{1}{44/44}{}{0}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {1}{44}}
-\headcommand {\beamer@subsectionpages {22}{44}}
-\headcommand {\beamer@sectionpages {22}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\gdef \inserttotalframenumber {41}}
+\headcommand {\beamer@sectionpages {22}{42}}
+\headcommand {\beamer@subsectionpages {22}{42}}
+\headcommand {\sectionentry {4}{R\'ef\'erences}{43}{R\'ef\'erences}{0}}
+\headcommand {\slideentry {4}{0}{0}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {4}{0}{0}{43/44}{}{0}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\slideentry {4}{0}{1}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {22}{45}}
+\headcommand {\beamer@sectionpages {22}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\gdef \inserttotalframenumber {42}}
