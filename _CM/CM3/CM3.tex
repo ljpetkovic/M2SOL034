@@ -752,10 +752,26 @@ Créer une partition du corpus \texttt{VOEUX} selon le locuteur \texttt{MITTERRA
 \end{frame}
 
 \begin{frame}{Interprétation}
+	\begin{itemize}
+		\item chaque partie est représentée par un ensemble de barres contiguës, classées dans le
+		même ordre que dans le tableau
+		\item chaque propriété de mot (forme graphique) sera représentée
+		par une barre de la même couleur dans chaque partie
+		\item les couleurs sont légendées dans le coin inférieur droit du graphique
+		\item la ligne rouge délimite la \bolder{zone de banalité} autour de l'axe d'indice 2 
+		\begin{itemize}
+			\item les barres qui n'en sortent pas sont à considérer comme banales
+		\end{itemize}
+		\end{itemize}
+\end{frame}
+\begin{frame}{Interprétation}
 \begin{itemize}
-\item a du sens au-dessus de 3
-\item \textbf{zone de banalité} représentée sur le graphique pour éviter de surinterpréter
-\item une significativité négative peut avoir du sens : \textbf{nullax} (<−\textsc{3})
+\item zone de banalité représentée sur le graphique pour éviter de surinterpréter
+\begin{itemize}
+\item banalité (forte probabilité) de l'apparition dans la partie 
+\item mots prévisibles d'après le modèle des spécificités
+\end{itemize}
+\item une significativité négative peut avoir du sens : \bolder{nullax}
 \begin{itemize}
 	\item mots ayant un indice négatif mais aussi une fréquence nulle
 	\item mots dont l’absence dans la partie est statistiquement
