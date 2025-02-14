@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 08:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 08:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1857,39 +1857,33 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
  [18
 
 ]
+File: img/generer_progression.png Graphic file (type bmp)
+<img/generer_progression.png>
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [19
+
+]
 File: img/progression.png Graphic file (type bmp)
 <img/progression.png>
 
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
-
-Overfull \vbox (9.48204pt too high) detected at line 594
+Overfull \vbox (12.9598pt too high) detected at line 601
  []
 
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
-[19
-
-]
-File: img/ver_cond_pres.png Graphic file (type bmp)
-<img/ver_cond_pres.png>
-
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
-Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
-ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [20
 
 ]
-File: img/generer_progression.png Graphic file (type bmp)
-<img/generer_progression.png>
+File: img/ver_cond_pres.png Graphic file (type bmp)
+<img/ver_cond_pres.png>
+
+Overfull \vbox (5.73752pt too high) detected at line 615
+ []
+
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [21
+[21
 
 ] [22
 
@@ -2146,10 +2140,10 @@ Package logreq Info: Writing requests to 'CM3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41057 strings out of 476683
- 867963 string characters out of 5804046
- 1868018 words of memory out of 5000000
- 60473 multiletter control sequences out of 15000+600000
+ 41055 strings out of 476683
+ 867941 string characters out of 5804046
+ 1869018 words of memory out of 5000000
+ 60471 multiletter control sequences out of 15000+600000
  523628 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,1886b,5734s stack positions out of 10000i,1000n,20000p,200000b,200000s
