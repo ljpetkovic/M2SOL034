@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 10:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 10:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -984,11 +984,19 @@ File: img/usa_algerie.png Graphic file (type bmp)
 File: img/afc.png Graphic file (type bmp)
 <img/afc.png>
 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.171 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-LaTeX Warning: Empty bibliography on input line 169.
+
+LaTeX Warning: Empty bibliography on input line 173.
 
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 173.
+(Font)              scaled to size 10.0pt on input line 178.
 [4] (./TD3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
