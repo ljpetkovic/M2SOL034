@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 07:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 08:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2003,7 +2003,7 @@ File: img/generer_afc.png Graphic file (type bmp)
 Missing character: There is no ​ (U+200B) in font [lmsans10-bold]:mapping=tex-t
 ext;!
 
-Overfull \vbox (7.42886pt too high) detected at line 812
+Overfull \vbox (7.42886pt too high) detected at line 815
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -2014,7 +2014,7 @@ File: img/logo.png Graphic file (type bmp)
 File: img/afc.png Graphic file (type bmp)
 <img/afc.png>
 
-Overfull \vbox (7.77695pt too high) detected at line 820
+Overfull \vbox (7.77695pt too high) detected at line 823
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -2028,7 +2028,7 @@ File: img/classif.png Graphic file (type bmp)
 Missing character: There is no ​ (U+200B) in font [lmsans10-bold]:mapping=tex-t
 ext;!
 
-Overfull \vbox (11.7811pt too high) detected at line 836
+Overfull \vbox (11.7811pt too high) detected at line 839
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -2056,12 +2056,12 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 859.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 862.
 
 Missing character: There is no   (U+202F) in font [lmsans10-boldoblique]:mappin
 g=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <7.11742> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 859.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 862.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -2073,7 +2073,7 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 859.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 862.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
@@ -2107,7 +2107,7 @@ File: img/logo.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 865.
+(Font)              scaled to size 10.95pt on input line 868.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [43
