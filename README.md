@@ -79,9 +79,9 @@
         <td align="right">3</td>
         <td align="right">14/02/2025</td>
         <td align="right">3</td>
-        <td align="center">Textométrie avancée</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM3/CM3.pdf">Textométrie avancée</a></td>
         <td align="right">3</td>
-        <td align="center">TXM II</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/tree/main/_TD/TD3">TXM II</a></td>
     </tr>
         <tr>
         <td align="right">4</td>
