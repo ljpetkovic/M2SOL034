@@ -87,7 +87,7 @@
         <td align="right">4</td>
         <td align="right">21/02/2025</td>
         <td align="right">4</td>
-        <td align="center">Automates finis</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM4/CM4.pdf">Automates et transducteurs à états finis · Unitex</a></td>
         <td align="right">4</td>
         <td align="center">Unitex</td>
     </tr>
