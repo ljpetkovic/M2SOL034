@@ -1,0 +1,3 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Automates et transducteurs}{2}{0}{1}
+\beamer@sectionintoc {2}{Unitex}{16}{0}{2}
