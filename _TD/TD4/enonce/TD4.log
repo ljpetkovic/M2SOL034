@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 02:01
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 02:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -966,9 +966,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 98.
+(Font)              <7> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 98.
+(Font)              <5> on input line 103.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -976,30 +976,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ^^I\bigskip
+l.109 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (68.94339pt too wide) in paragraph at lines 106--107
+Overfull \hbox (68.94339pt too wide) in paragraph at lines 111--112
 []\TU/lmr/bx/n/10 Recherches utilisant les informations grammaticales|flexionne
 lles|sémantiques 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ^^I\bigskip
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 [1
 
@@ -1011,7 +998,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 ^^I\bigskip
+l.119 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1024,7 +1011,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \bigskip
+l.126 ^^I\bigskip
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1037,7 +1037,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138 \bigskip
+l.143 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1050,7 +1050,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 \bigskip
+l.152 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1063,7 +1063,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \bigskip
+l.163 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1072,16 +1072,16 @@ or  <return>  to continue without it.
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.176 \hline
+l.181 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-LaTeX Warning: Empty bibliography on input line 178.
+LaTeX Warning: Empty bibliography on input line 183.
 
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 183.
+(Font)              scaled to size 10.0pt on input line 188.
 [2] (./TD4.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1095,7 +1095,7 @@ Package logreq Info: Writing requests to 'TD4.run.xml'.
 Here is how much of TeX's memory you used:
  30128 strings out of 476683
  578534 string characters out of 5804046
- 1856018 words of memory out of 5000000
+ 1857018 words of memory out of 5000000
  49960 multiletter control sequences out of 15000+600000
  512774 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
