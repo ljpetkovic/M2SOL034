@@ -89,7 +89,7 @@
         <td align="right">4</td>
         <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM4/CM4.pdf">Automates et transducteurs à états finis · Unitex</a></td>
         <td align="right">4</td>
-        <td align="center">Unitex</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_TD/TD4/enonce/TD4.pdf">Unitex</a></td>
     </tr>
     <tr style="background-color: white;">
         <td align="center">Interruption d'études</td>
