@@ -108,7 +108,7 @@
 	\item \textbf{Recherches utilisant les informations grammaticales|flexionnelles|sémantiques}
 	\begin{itemize}
 		\item tous les adjectifs au féminin pluriel
-%		\item tous les mots possédant le trait sémantique \og{}humain collectif\fg{}
+		\item tous les mots possédant le trait sémantique \og{}humain collectif\fg{}
 		\item tous les verbes à l'imparfait du langage courant
 	\end{itemize}
 	
@@ -145,6 +145,19 @@
 	\item tous les mots composés contenant un tiret
 	\item tous les mots qui ne sont pas dans le dictionnaire et qui se terminent par \textit{es}
 \end{itemize}
+\\
+\bigskip
+ 
+ \item \textbf{Regex avancées}
+ \begin{itemize}
+ 	\item tous les verbes un peu ou très spécialisés, soit au participe passé, soit à l'infinitif
+ 	\item toutes les séquences
+ 	\begin{itemize}
+ 		\item commençant par le verbe \textit{avoir}, et
+ 		\item se terminant par un verbe au participe passé
+ 	\end{itemize}
+ 	\item tous les verbes au subjonctif passé ou présent, contenant \textit{uiss}
+ \end{itemize}
 \\
 \bigskip
 \item \textbf{Transformer le texte}
@@ -218,6 +231,18 @@ Créer un graphe qui réalise un début d'annotation en entités nommées du \te
 	
 	\\
 	\bigskip
+	
+		 Repérage de tous les noms possédant le trait sémantique \og{}humain collectif\fg{} (Fig. \ref{fig:collectif}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/collectif.png}
+		\caption{Repérage de tous les noms possédant le trait sémantique \og{}humain collectif\fg{}.}
+		\label{fig:collectif}
+	\end{figure}
+	
+	\\
+	\bigskip
+	
 	Repérage des verbes à l'imparfait du langage courant (Fig. \ref{fig:verbe_impf}).
 			\begin{figure}[H] % Use [H] to force the figure to stay in place
 		\centering
@@ -234,6 +259,8 @@ Créer un graphe qui réalise un début d'annotation en entités nommées du \te
 		\label{fig:verbe_impf_pres_impfsubj}
 	\end{figure}
 	
+		\bigskip
+	\\
 	\item Repérage de tous les mots qui ne sont pas dans le dictionnaire (Fig. \ref{fig:dic}).
 					\begin{figure}[H] % Use [H] to force the figure to stay in place
 		\centering
@@ -310,6 +337,37 @@ Créer un graphe qui réalise un début d'annotation en entités nommées du \te
 		\includegraphics[width=.7\linewidth]{img/es.png}
 		\caption{Repérage de tous les mots qui ne sont pas dans le dictionnaire et qui se terminent par \textit{es}.}
 		\label{fig:es}
+	\end{figure}
+	
+	\bigskip
+	\\
+	\item Repérage de tous les verbes un peu ou très spécialisés, soit au participe passé, soit à l'infinitif (Fig. \ref{fig:specialises}).
+			\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/specialises.png}
+		\caption{Repérage de tous les verbes un peu ou très spécialisés, soit au participe passé, soit à l'infinitif.}
+		\label{fig:specialises}
+	\end{figure}
+	
+	\bigskip
+	\\
+	
+	Repérage de toutes les séquences commençant par le verbe \textit{avoir} et se terminant par un verbe au participe passé (Fig. \ref{fig:participe_passe}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/participe_passe.png}
+		\caption{Repérage de toutes les séquences commençant par le verbe \textit{avoir} et se terminant par un verbe au participe passé.}
+		\label{fig:participe_passe}
+	\end{figure}
+	
+	\bigskip
+	\\
+	Repérage de tous les verbes au subjonctif passé ou présent, contenant \textit{uiss} (Fig. \ref{fig:uiss}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/uiss.png}
+		\caption{Repérage de tous les verbes au subjonctif passé ou présent, contenant \textit{uiss}.}
+		\label{fig:uiss}
 	\end{figure}
 	
 	\item Remplacer toutes les occurrences de \textit{Phileas Fogg} par \texttt{Pers1} et de \textit{Passepartout} par \textit{Pers2} (Fig. \ref{fig:pers1_2}).
