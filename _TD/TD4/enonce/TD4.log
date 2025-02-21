@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 05:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 05:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1089,8 +1089,8 @@ or  <return>  to continue without it.
 File: img/jetuil.png Graphic file (type bmp)
 <img/jetuil.png>
 [2]
-File: img/pronom.png Graphic file (type bmp)
-<img/pronom.png>
+File: img/pronom_verbe.png Graphic file (type bmp)
+<img/pronom_verbe.png>
 File: img/adjectifs.png Graphic file (type bmp)
 <img/adjectifs.png>
 File: img/adjectif_fp.png Graphic file (type bmp)
@@ -1346,7 +1346,7 @@ Package logreq Info: Writing requests to 'TD4.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30312 strings out of 476683
- 582207 string characters out of 5804046
+ 582255 string characters out of 5804046
  1858018 words of memory out of 5000000
  50126 multiletter control sequences out of 15000+600000
  512774 words of font info for 46 fonts, out of 8000000 for 9000
