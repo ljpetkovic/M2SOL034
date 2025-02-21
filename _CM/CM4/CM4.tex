@@ -929,6 +929,16 @@ Le point est-il une fin de phrase ou un élément d'un sigle ?
 	\end{block}
 \end{frame}
 
+\begin{frame}{Exemples de recherches de motifs}
+	\begin{itemize}
+		\item un mot (\texttt{juger}) ou séquence de mots (\texttt{pomme de terre})
+		\item toutes les formes fléchies associées à une forme de base (\texttt{<juger>} = \textit{juge}, \textit{juges}, \textit{jugeons}, etc.)
+		\item formes appartenant à une catégorie grammaticale avec informations flexionnelles : \texttt{<N>}, \texttt{<N:ms>}, \texttt{<V:K>}
+		\item motifs complexes : \texttt{<DET:ms><N:ms>}
+		\item regex : \texttt{je+tu+il+elle+on+nous+vous+ils+elles}
+		\item automates sous la forme de graphes
+	\end{itemize}
+\end{frame}
 \begin{frame}{Recherches simples}
 	\begin{enumerate}
 		\item rechercher le motif \texttt{parler} en cliquant sur \texttt{Locate Pattern} dans le menu \texttt{Text}
@@ -1099,7 +1109,6 @@ Le point est-il une fin de phrase ou un élément d'un sigle ?
 		\item \texttt{<<[aeiouy]3,5>>} : contient une séquence de voyelles non accentuées, de longueur comprise entre 3 et 5
 		\item \texttt{<<es?>>} : contient \textit{e} suivi par un \textit{s} facultatif
 		\item \texttt{<<ss[\^{}e]?} : contient \textit{ss} suivi par un caractère qui n'est pas une voyelle \textit{e}
-		\item 
 	\end{itemize}
 \end{frame}
 
@@ -1115,6 +1124,116 @@ Le point est-il une fin de phrase ou un élément d'un sigle ?
 		\item \texttt{<CDIC><<.*>>} : mot composé contenant deux espaces
 		\item \texttt{<A:fs><<\^{}pro>>} : adjectif fém. sing. commençant par \textit{pro}
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Créer un graphe simple}
+	\begin{itemize}
+		\item dans le menu \Colorbox{mygray}{\lstinline|FSGraph|}, sélectionner \Colorbox{mygray}{\lstinline|New...|}
+		\item faire un \Colorbox{mygray}{\lstinline|Ctrl + clic|} entre l'état initial et l'état final
+		\item pour supprimer un état, cliquer sur la tête de mort
+		\item dans la barre de texte, à la place de \Colorbox{mygray}{\lstinline|<E>|}, taper : \Colorbox{mygray}{\lstinline|je+tu+il+elle+on+nous+vous+ils+elles|}
+		\item taper \Colorbox{mygray}{\lstinline|Entrée|}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Graphe créé}
+				\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.5\linewidth]{img/graphe.png}
+		\caption{Mon premier graphe.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Lier le graphe créé}
+	\begin{itemize}
+		\item cliquer sur la flèche de l'état initial, puis sur l'état \texttt{je+tu...} (une transition apparaît)
+		\item pour supprimer une transition, refaire la même manipulation
+	\end{itemize}
+	\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.35\linewidth]{img/graphe_lie.png}
+		\caption{Mon premier graphe lié de l'état initial.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Compléter le graphe}
+	\begin{itemize}
+		\item cliquer sur l'état \texttt{je+tu...} puis sur l'état final (une transition apparaît)
+			\begin{figure}[h] % Use [H] to force the figure to stay in place
+			\centering
+			\includegraphics[width=.3\linewidth]{img/graphe_fini.png}
+			\caption{Mon premier graphe lié de l'état initial.}
+			\label{fig:ling_out_TAL}
+		\end{figure}
+		\item dans le menu \Colorbox{mygray}{\lstinline|FSGraph|}, sélectionner \Colorbox{mygray}{\lstinline|Save as...|} (pour enregistrer le graphe)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Appliquer le graphe à un texte}
+	Pour appliquer le graphe au texte : 
+	\begin{itemize}
+		\item ouvrir un texte (p. ex. le \textit{Tour du monde en 80 jours})
+		\item puis menu \Colorbox{mygray}{\lstinline|Text > Locate Pattern|}
+		\item dans \Colorbox{mygray}{\lstinline|Graph|}, indiquer (\textit{set}) le chemin vers le graphe enregistré précédemment
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Création d'une substitution}
+	\textcolor{deepblue}{Remplacer une chaîne par une autre}
+	\begin{itemize}
+		\item créer un graphe à un état intermédiaire
+		\item dans cet état, écrire \texttt{folie/démence}
+		\item enregistrer ce graphe
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Application d'un graphe avec substitution}
+	\textcolor{deepblue}{Remplacer une chaîne par une autre}
+	\begin{itemize}
+		\item ouvrir un texte (p. ex. le \textit{Tour du monde en 80 jours})
+		\item puis, menu \Colorbox{mygray}{\lstinline|Text > Locate Pattern > Graph|}
+		\item dans \Colorbox{mygray}{\lstinline|Graph|}, indiquer \textit{set} le chemin vers le graphe enregistré
+		\item selectionner \Colorbox{mygray}{\lstinline|Grammar Outputs > Replace recognized sentences|}
+	\end{itemize}
+				\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.3\linewidth]{img/substitution.png}
+		\caption{Mon premier graphe de substitution.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Création d'une annotation}
+	\textcolor{deepblue}{Annoter une chaîne de caractères}
+	\begin{itemize}
+		\item créer un graphe reconnaissant l'expression \textit{un des plus}
+		\item écrire \texttt{un/<select>}
+		\item ajouter après l'expression l'état contenant \texttt{<E>/</select>}
+		\item enregistrer le graphe
+	\end{itemize}
+					\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.5\linewidth]{img/un_des_plus.png}
+		\caption{Mon premier graphe d'annotation.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Appliquer les annotations dans le texte}
+\textcolor{deepblue}{Annoter le texte}
+		\begin{itemize}
+		\item ouvrir un texte (p. ex. le \textit{Tour du monde en 80 jours})
+		\item puis, menu \Colorbox{mygray}{\lstinline|Text > Locate Pattern > Graph|}
+		\item selectionner \Colorbox{mygray}{\lstinline|Grammar Outputs > Merge with input text|}
+	\end{itemize}
+			\begin{figure}[h] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.4\linewidth]{img/merge.png}
+		\caption{Appliquer les annotations.}
+		\label{fig:ling_out_TAL}
+	\end{figure}
 \end{frame}
 
 \begin{frame}[allowframebreaks]
