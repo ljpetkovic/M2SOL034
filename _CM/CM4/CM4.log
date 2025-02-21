@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 01:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 02:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1545,6 +1545,9 @@ LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
 LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
 
+
+LaTeX Warning: Label `fig:ling_out_TAL' multiply defined.
+
 )
 \openout1 = `CM4.aux'.
 
@@ -2058,19 +2061,19 @@ File: img/logo.png Graphic file (type bmp)
  [41
 
 ]
-Overfull \hbox (12.76427pt too wide) in paragraph at lines 1099--1099
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [42
+
+]
+Overfull \hbox (12.76427pt too wide) in paragraph at lines 1110--1110
 [][][]\TU/lmss/m/n/6 https ://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A
 8re#Expressions_rationnelles_.C3.A9tendues_POSIX|  
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[42
-
-]
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
- [43
+[43
 
 ]
 File: img/logo.png Graphic file (type bmp)
@@ -2083,21 +2086,15 @@ File: img/logo.png Graphic file (type bmp)
  [45
 
 ]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [46
+
+]
 File: img/graphe.png Graphic file (type bmp)
 <img/graphe.png>
 
-Overfull \vbox (0.64172pt too high) detected at line 1146
- []
-
-File: img/logo.png Graphic file (type bmp)
-<img/logo.png>
-[46
-
-]
-File: img/graphe_lie.png Graphic file (type bmp)
-<img/graphe_lie.png>
-
-Overfull \vbox (1.74066pt too high) detected at line 1159
+Overfull \vbox (0.64172pt too high) detected at line 1157
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -2105,16 +2102,10 @@ File: img/logo.png Graphic file (type bmp)
 [47
 
 ]
-File: img/graphe_fini.png Graphic file (type bmp)
-<img/graphe_fini.png>
+File: img/graphe_lie.png Graphic file (type bmp)
+<img/graphe_lie.png>
 
-Overfull \hbox (21.9pt too wide) in paragraph at lines 1172--1172
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
-
+Overfull \vbox (1.74066pt too high) detected at line 1170
  []
 
 File: img/logo.png Graphic file (type bmp)
@@ -2122,9 +2113,21 @@ File: img/logo.png Graphic file (type bmp)
 [48
 
 ]
+File: img/graphe_fini.png Graphic file (type bmp)
+<img/graphe_fini.png>
+
+Overfull \hbox (21.9pt too wide) in paragraph at lines 1183--1183
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1183--1183
+
+ []
+
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [49
+[49
 
 ]
 File: img/logo.png Graphic file (type bmp)
@@ -2132,33 +2135,38 @@ File: img/logo.png Graphic file (type bmp)
  [50
 
 ]
+File: img/logo.png Graphic file (type bmp)
+<img/logo.png>
+ [51
+
+]
 File: img/substitution.png Graphic file (type bmp)
 <img/substitution.png>
 
-Overfull \vbox (13.373pt too high) detected at line 1206
+Overfull \vbox (13.373pt too high) detected at line 1217
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[51
+[52
 
 ]
 File: img/un_des_plus.png Graphic file (type bmp)
 <img/un_des_plus.png>
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [52
+ [53
 
 ]
 File: img/merge.png Graphic file (type bmp)
 <img/merge.png>
 
-Overfull \vbox (10.64899pt too high) detected at line 1237
+Overfull \vbox (10.64899pt too high) detected at line 1248
  []
 
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[53
+[54
 
 ]
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -2169,11 +2177,11 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1241
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1252
 .
 
 LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 1241.
+(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 1252.
 
 
 File: beamericonarticle.pdf Graphic file (type pdf)
@@ -2208,20 +2216,20 @@ Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mapp
 ng=tex-text;!
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
-[54
+[55
 
 ]
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [55
+ [56
 
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 1250.
+(Font)              scaled to size 10.95pt on input line 1261.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
- [56
+ [57
 
 ]
 \tf@nav=\write7
@@ -2242,21 +2250,17 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `CM4.out' has not changed.
 (rerunfilecheck)             Checksum: 2B554159E35A1B51BF7C2C634F780E87;351.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'CM4.run.xml'.
 \openout1 = `CM4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42627 strings out of 476683
- 910331 string characters out of 5804046
+ 42631 strings out of 476683
+ 910367 string characters out of 5804046
  1870018 words of memory out of 5000000
- 62024 multiletter control sequences out of 15000+600000
+ 62028 multiletter control sequences out of 15000+600000
  523628 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,18n,122p,1886b,5744s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CM4.pdf (56 pages).
+Output written on CM4.pdf (57 pages).
