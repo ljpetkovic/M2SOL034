@@ -85,6 +85,7 @@
 	\bigskip
 	
 \section{Exercices}
+	Les exercices suivants sont à faire sur le corpus \textit{Tour du monde en 80 jours} de Jules Verne.
 \begin{enumerate}
 	\item \textbf{Manipulation de graphe}
 	\begin{itemize}
@@ -94,16 +95,12 @@
 	\\
 	\bigskip
 	
-	Les exercices suivants sont à faire sur le corpus \textit{Tour du monde en 80 jours} de Jules Verne.
-		\\
-	\medskip
-	
 \item \textbf{Recherches de motifs complexes}
 	\begin{itemize}
 		\item toutes les occurrences des pronoms personnels (\textit{je, tu, il$\dots$})
 		\item toutes les occurrences des pronoms personnels qui sont suivis par un verbe
-		\item toutes les suites d'au moins 3 adjectifs (\texttt{A}) : qu'observez-vous de surprenant ?
-		\item toutes les suites de noms. Pourquoi le motif \texttt{<N>*} produit-il une erreur ? Que faire pour l'éviter ?
+		\item toutes les suites de 3 adjectifs (\texttt{A}) : qu'observez-vous de surprenant ?
+%		\item toutes les suites de noms. Pourquoi le motif \texttt{<N>*} produit-il une erreur ? Que faire pour l'éviter ?
 	\end{itemize}
 	\\
 	\bigskip
@@ -111,7 +108,7 @@
 	\item \textbf{Recherches utilisant les informations grammaticales|flexionnelles|sémantiques}
 	\begin{itemize}
 		\item tous les adjectifs au féminin pluriel
-		\item tous les mots possédant le trait sémantique \og{}humain collectif\fg{}
+%		\item tous les mots possédant le trait sémantique \og{}humain collectif\fg{}
 		\item tous les verbes à l'imparfait du langage courant
 	\end{itemize}
 	
@@ -167,7 +164,7 @@ Créer un graphe qui réalise un début d'anonymisation du \textit{Tour du monde
 
 Créer un graphe qui réalise un début d'annotation en entités nommées du \textit{Tour de monde en 80 jours}
 	\begin{itemize}
-	\item annoter toutes les occurrences de \textit{Phileas Fogg} et de \textit{Passepartout par des balises \texttt{<pers></pers>}}
+	\item annoter toutes les occurrences de \textit{Phileas Fogg} et de \textit{Passepartout} par des balises \texttt{<pers></pers>}
 	\item appliquer le graphe sur le texte et vérifier les résultats obtenus
 \end{itemize}
 \end{enumerate}
@@ -178,6 +175,161 @@ Créer un graphe qui réalise un début d'annotation en entités nommées du \te
 
 
 \section{Solutions}
+
+\begin{enumerate}
+	\item 
+	Repérage des pronoms personnels suivis d'un verbe (Fig. \ref{fig:jetuil}).
+	
+	\texttt{je+tu+il+elle+on+nous+vous+ils+elles <V>}
+	
+			\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.3\linewidth]{img/jetuil.png}
+		\caption{Repérage des pronoms personnels suivis d'un verbe.}
+		\label{fig:jetuil}
+	\end{figure}
+	
+	\item Repérage des pronoms personnels avec une seule balise (Fig. \ref{fig:jetuil_balise}).
+		\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=1\linewidth]{img/pronom.png}
+		\caption{Repérage des pronoms avec une seule balise.}
+		\label{fig:jetuil_balise}
+	\end{figure}
+	
+	Repérage des suites d'au moins 3 adjectifs (\texttt{A}).
+			\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/adjectifs.png}
+		\caption{Repérage des suites de trois adjectifs.}
+		\label{fig:jetuil_balise}
+	\end{figure}
+	
+	Nous remarquons également le repérage de certains faux positifs dans le résultat du concordancier (adverbes, locutions$\dots$).
+	
+	\bigskip
+	\item Repérage de tous les adjectifs au féminin pluriel (Fig. \ref{fig:adjectif_fp}).
+		\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/adjectif_fp.png}
+		\caption{Repérage des adjectifs au féminin pluriel.}
+		\label{fig:adjectif_fp}
+	\end{figure}
+	
+	\\
+	\bigskip
+	Repérage des verbes à l'imparfait du langage courant (Fig. \ref{fig:verbe_impf}).
+			\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/verbe_impf_courant.png}
+		\caption{Repérage des verbes à l'imparfait du langage courant.}
+		\label{fig:verbe_impf}
+	\end{figure}
+	
+	\item Repérage de tous les verbes, soit à l'imparfait, soit au présent ou à l'imparfait du subjonctif (Fig. \ref{fig:verbe_impf_pres_impfsubj}).
+				\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/verbe_impf_pres_impfsubj.png}
+		\caption{Repérage de tous les verbes, soit à l'imparfait, soit au présent ou à l'imparfait du subjonctif.}
+		\label{fig:verbe_impf_pres_impfsubj}
+	\end{figure}
+	
+	\item Repérage de tous les mots qui ne sont pas dans le dictionnaire (Fig. \ref{fig:dic}).
+					\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/dic.png}
+		\caption{Repérage des mots hors dictionnaire.}
+		\label{fig:dic}
+	\end{figure}
+	
+	\bigskip
+	\\
+	
+	Repérage de tous les mots qui ne sont pas écrits tout en minuscules (Fig. \ref{fig:min}).
+						\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/min.png}
+		\caption{Repérage de tous les mots qui ne sont pas écrits tout en minuscules.}
+		\label{fig:min}
+	\end{figure}
+	
+	\bigskip
+	\\
+	
+	Repérage de tous les noms non humains (Fig. \ref{fig:negation}).
+							\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/negation.png}
+		\caption{Repérage de tous les mots non humains.}
+		\label{fig:negation}
+	\end{figure}
+	
+	\item Repérage de tous les mots commençant par une majuscule à l'aide des métamotifs (Fig. \ref{fig:majuscule}).
+		\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/majuscule.png}
+		\caption{Repérage de tous les mots commençant par une majuscule à l'aide des métamotifs.}
+		\label{fig:majuscule}
+	\end{figure}
+	
+	\bigskip
+	\\
+	Repérage de tous les mots qui possèdent le trait sémantique \og{}concret\fg{} (Fig. \ref{fig:concret}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/concret.png}
+		\caption{Repérage de tous les mots qui possèdent le trait sémantique \og{}concret\fg{}.}
+		\label{fig:concret}
+	\end{figure}
+		\bigskip
+	\\
+	
+	\item Repérage de tous les mots qui commencent par \textit{anti} ou \textit{pro}, suivis par un tiret facultatif (Fig. \ref{fig:anti_pro}).
+		\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/anti_pro.png}
+		\caption{Repérage de tous les mots qui commencent par \textit{anti} ou \textit{pro}, suivis par un tiret facultatif.}
+		\label{fig:anti_pro}
+	\end{figure}
+	\bigskip
+	\\
+	
+		Repérage de tous les mots composés contenant un tiret (Fig. \ref{fig:composes}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/composes.png}
+		\caption{Repérage de tous les mots composés contenant un tiret.}
+		\label{fig:composes}
+	\end{figure}
+	\bigskip
+	\\
+	
+			Repérage de tous les mots qui ne sont pas dans le dictionnaire et qui se terminent par \textit{es} (Fig. \ref{fig:es}).
+	\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/es.png}
+		\caption{Repérage de tous les mots qui ne sont pas dans le dictionnaire et qui se terminent par \textit{es}.}
+		\label{fig:es}
+	\end{figure}
+	
+	\item Remplacer toutes les occurrences de \textit{Phileas Fogg} par \texttt{Pers1} et de \textit{Passepartout} par \textit{Pers2} (Fig. \ref{fig:pers1_2}).
+		\begin{figure}[H] % Use [H] to force the figure to stay in place
+		\centering
+		\includegraphics[width=.7\linewidth]{img/pers1_2.png}
+		\caption{Remplacer toutes les occurrences de \textit{Phileas Fogg} par \texttt{Pers1} et de \textit{Passepartout} par \textit{Pers2}.}
+		\label{fig:pers1_2}
+	\end{figure}
+		\bigskip
+	\\
+	
+	\item Annoter toutes les occurrences de \textit{Phileas Fogg} et de \textit{Passepartout} par des balises \texttt{<pers></pers>} (Fig. {\ref{fig:pers}).
+				\begin{figure}[H] % Use [H] to force the figure to stay in place
+			\centering
+			\includegraphics[width=.7\linewidth]{img/pers.png}
+			\caption{Annoter toutes les occurrences de \textit{Phileas Fogg} et de \textit{Passepartout} par des balises \texttt{<pers></pers>}.}
+			\label{fig:pers}
+		\end{figure}
+\end{enumerate}
 \hline 
 
 		\printbibliography
