@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 10:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -897,16 +897,26 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 56.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 67.
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.70 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 (./TD2.toc)
 \tf@toc=\write6
 \openout6 = `TD2.toc'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 76.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
+(Font)              <5> on input line 81.
 
-Overfull \hbox (8.08pt too wide) in paragraph at lines 80--81
+Overfull \hbox (8.08pt too wide) in paragraph at lines 85--86
 [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][]$[][]\TU/lmr/m/n/10 , e
 t importez-le dans \TU/lmtt/m/n/10 TXM\TU/lmr/m/n/10 . Exportez le lexique
  []
@@ -917,19 +927,20 @@ t importez-le dans \TU/lmtt/m/n/10 TXM\TU/lmr/m/n/10 . Exportez le lexique
 File: img/hysterie.png Graphic file (type bmp)
 <img/hysterie.png>
  [2]
-Overfull \hbox (26.25pt too wide) in paragraph at lines 112--113
+Overfull \hbox (26.25pt too wide) in paragraph at lines 117--118
 []\TU/lmtt/m/n/10 [frlemma="je"][]*[frlemma="souhaiter"][]*[frlemma="année"] wi
 thin
  []
 
 
-LaTeX Warning: Empty bibliography on input line 123.
+LaTeX Warning: Empty bibliography on input line 128.
 
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 128.
 [3] (./TD2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `TD2.out' has not changed.
 (rerunfilecheck)             Checksum: 462959C3ABE3451216E786E7A0082112;288.
@@ -938,9 +949,9 @@ Package logreq Info: Writing requests to 'TD2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28632 strings out of 476683
- 554393 string characters out of 5804046
- 1858018 words of memory out of 5000000
+ 28631 strings out of 476683
+ 554375 string characters out of 5804046
+ 1857018 words of memory out of 5000000
  48485 multiletter control sequences out of 15000+600000
  512798 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
