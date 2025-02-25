@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 FEB 2025 10:24
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -873,19 +873,29 @@ File: img/logo.png Graphic file (type bmp)
 LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 (Font)              using `TU/lmr/bx/n' instead on input line 55.
 
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 65.
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.69 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 (./TD1.toc)
 \tf@toc=\write6
 \openout6 = `TD1.toc'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 71.
+(Font)              <7> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 71.
+(Font)              <5> on input line 77.
 
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 
-Overfull \hbox (13.14pt too wide) in paragraph at lines 78--79
+Overfull \hbox (13.14pt too wide) in paragraph at lines 84--85
 []\TU/lmr/m/n/10 Suivez le tutoriel \TU/lmtt/m/n/10 1_nlp_basics_tokenization_s
 egmentation.ipynb \TU/lmr/m/n/10 de [][][]\TU/lmr/m/sc/10 Saravia[]​
  []
@@ -895,8 +905,6 @@ egmentation.ipynb \TU/lmr/m/n/10 de [][][]\TU/lmr/m/sc/10 Saravia[]​
 ]
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
 [2] (./TD1.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -908,12 +916,12 @@ Package logreq Info: Writing requests to 'TD1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27519 strings out of 476683
- 532875 string characters out of 5804046
+ 27516 strings out of 476683
+ 532826 string characters out of 5804046
  1856018 words of memory out of 5000000
- 47380 multiletter control sequences out of 15000+600000
- 512798 words of font info for 49 fonts, out of 8000000 for 9000
+ 47379 multiletter control sequences out of 15000+600000
+ 512790 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,5n,104p,1886b,4749s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,5n,104p,1886b,4747s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on TD1.pdf (2 pages).
