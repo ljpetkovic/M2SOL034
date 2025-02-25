@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  21 FEB 2025 05:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -951,6 +951,16 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 80.
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.83 \hline
+           
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 (./TD4.toc)
 \tf@toc=\write6
 \openout6 = `TD4.toc'.
@@ -963,16 +973,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 ^^I\bigskip
-                
+l.100 ^^I\bigskip
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 104.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -980,30 +990,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 ^^I\bigskip
+l.110 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (68.94339pt too wide) in paragraph at lines 108--109
+Overfull \hbox (68.94339pt too wide) in paragraph at lines 112--113
 []\TU/lmr/bx/n/10 Recherches utilisant les informations grammaticales|flexionne
 lles|sémantiques 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 ^^I\bigskip
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 [1
 
@@ -1015,7 +1012,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 ^^I\bigskip
+l.120 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1028,7 +1025,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \bigskip
+l.127 ^^I\bigskip
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1041,7 +1051,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 \bigskip
+l.144 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1054,7 +1064,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \bigskip
+l.153 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1067,7 +1077,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \bigskip
+l.166 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1080,22 +1090,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.173 \bigskip
+l.177 \bigskip
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[2]
 File: img/jetuil.png Graphic file (type bmp)
 <img/jetuil.png>
-[2]
 File: img/pronom_verbe.png Graphic file (type bmp)
 <img/pronom_verbe.png>
 File: img/adjectifs.png Graphic file (type bmp)
 <img/adjectifs.png>
 File: img/adjectif_fp.png Graphic file (type bmp)
 <img/adjectif_fp.png>
-
+ [3]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1103,7 +1113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 ^^I\bigskip
+l.237 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1111,7 +1121,6 @@ or  <return>  to continue without it.
 
 File: img/collectif.png Graphic file (type bmp)
 <img/collectif.png>
-[3]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1119,7 +1128,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 ^^I\bigskip
+l.248 ^^I\bigskip
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1136,7 +1145,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 ^^I\item
+l.268 ^^I\item
                Repérage de tous les mots qui ne sont pas dans le dictionnair...
 
 Your command was ignored.
@@ -1145,21 +1154,6 @@ or  <return>  to continue without it.
 
 File: img/dic.png Graphic file (type bmp)
 <img/dic.png>
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.274 ^^I
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: img/min.png Graphic file (type bmp)
-<img/min.png>
 [4]
 
 ! LaTeX Error: There's no line here to end.
@@ -1168,7 +1162,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 ^^I
+l.278 ^^I
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: img/min.png Graphic file (type bmp)
+<img/min.png>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289 ^^I
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1185,7 +1194,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.304 ^^IR
+l.308 ^^IR
           epérage de tous les mots qui possèdent le trait sémantique \og{}co...
 
 Your command was ignored.
@@ -1201,30 +1210,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.313 ^^I
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: img/anti_pro.png Graphic file (type bmp)
-<img/anti_pro.png>
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.323 ^^I
+l.317 ^^I
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [5]
-File: img/composes.png Graphic file (type bmp)
-<img/composes.png>
+File: img/anti_pro.png Graphic file (type bmp)
+<img/anti_pro.png>
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1233,7 +1227,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.333 ^^I
+l.327 ^^I
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: img/composes.png Graphic file (type bmp)
+<img/composes.png>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 ^^I
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1248,7 +1257,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.344 ^^I\item
+l.348 ^^I\item
                Repérage de tous les verbes un peu ou très spécialisés, soit ...
 
 Your command was ignored.
@@ -1257,21 +1266,6 @@ or  <return>  to continue without it.
 
 File: img/specialises.png Graphic file (type bmp)
 <img/specialises.png>
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 ^^I
-         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: img/participe_passe.png Graphic file (type bmp)
-<img/participe_passe.png>
 [6]
 
 ! LaTeX Error: There's no line here to end.
@@ -1280,7 +1274,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.365 ^^IR
+l.358 ^^I
+         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: img/participe_passe.png Graphic file (type bmp)
+<img/participe_passe.png>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 ^^IR
           epérage de tous les verbes au subjonctif passé ou présent, contena...
 
 Your command was ignored.
@@ -1298,19 +1307,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.382 ^^I
+l.386 ^^I
          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[7]
 File: img/pers.png Graphic file (type bmp)
 <img/pers.png>
-[7]
+
 ! Missing } inserted.
 <inserted text> 
                 }
-l.390 \end{enumerate}
+l.394 \end{enumerate}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1318,19 +1328,9 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.391 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
 
+LaTeX Warning: Empty bibliography on input line 397.
 
-LaTeX Warning: Empty bibliography on input line 393.
-
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 398.
 [8] (./TD4.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1345,11 +1345,11 @@ Package logreq Info: Writing requests to 'TD4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30312 strings out of 476683
- 582255 string characters out of 5804046
+ 30315 strings out of 476683
+ 582339 string characters out of 5804046
  1858018 words of memory out of 5000000
- 50126 multiletter control sequences out of 15000+600000
- 512774 words of font info for 46 fonts, out of 8000000 for 9000
+ 50127 multiletter control sequences out of 15000+600000
+ 512782 words of font info for 47 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,6n,117p,1886b,3928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
