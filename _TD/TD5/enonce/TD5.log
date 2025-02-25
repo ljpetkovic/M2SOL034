@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -948,35 +948,34 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
+(Font)              scaled to size 10.0pt on input line 80.
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.83 ^^I\hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 (./TD5.toc)
 \tf@toc=\write6
 \openout6 = `TD5.toc'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 90.
+(Font)              <7> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 90.
+(Font)              <5> on input line 96.
 
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.92 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (6.75pt too wide) in paragraph at lines 90--92
+Overfull \hbox (6.75pt too wide) in paragraph at lines 96--99
 [][][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] []
 [][][][][][][] [] [][][][] [] [][][][] [] [][][] [] [][][] [] [][][][][][][][][
 ][]$[][] 
  []
 
 
-LaTeX Warning: Empty bibliography on input line 94.
+LaTeX Warning: Empty bibliography on input line 100.
 
-LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 99.
 [1
 
 ] (./TD5.aux)
@@ -990,11 +989,11 @@ Package logreq Info: Writing requests to 'TD5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30125 strings out of 476683
- 578430 string characters out of 5804046
+ 30128 strings out of 476683
+ 578514 string characters out of 5804046
  1852018 words of memory out of 5000000
- 49959 multiletter control sequences out of 15000+600000
- 512758 words of font info for 44 fonts, out of 8000000 for 9000
+ 49960 multiletter control sequences out of 15000+600000
+ 512766 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,5n,117p,1886b,3928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
