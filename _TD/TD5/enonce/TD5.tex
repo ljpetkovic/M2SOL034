@@ -1,0 +1,101 @@
+\documentclass[xcolor={table,usenames,dvipsnames}]{article}
+\usepackage{float}
+\usepackage[french]{babel}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}  % Adds spacing between paragraphs
+\usepackage{ccicons}
+\usepackage{caption}
+\captionsetup{justification=centering}
+\usepackage{tcolorbox} % For the title box
+\usepackage{xcolor}    % For colors
+\usepackage{graphicx}  % For inserting images
+\usepackage{listings}
+\definecolor{mygray}{rgb}{0.8,0.8,0.8}
+\lstset{%
+	basicstyle=\ttfamily,
+	breaklines = true,
+	backgroundcolor=\color{mygray},
+}
+\usepackage{realboxes}
+
+\DeclareDocumentCommand{\clist}{v}{%
+	\Colorbox{mygray}{\csname lstinline\endcsname!#1!}%
+}
+
+\definecolor{BlueViolet}{RGB}{5, 9, 141} % Define the missing BlueViolet color
+\usepackage{hyperref}  % For clickable Table of Contents
+ \hypersetup{
+	colorlinks=true,      % Enable colored links
+	linkcolor=violet,        % Color for internal links (sections, equations, etc.)
+	citecolor=BlueViolet,      % Color for citations
+	filecolor=magenta,    % Color for file links
+	urlcolor=BlueViolet         % Color for URLs
+}
+
+
+
+
+
+\let\oldnocite\nocite
+\makeatletter
+\renewcommand*{\nocite}[1]{\oldnocite{#1}\Hy@backout{#1}}
+\makeatother
+
+
+
+\usepackage[style=authoryear, maxbibnames=99, mincitenames=1, maxcitenames=2, backref=true, hyperref=true, dashed=false, firstinits=true, backend=bibtex, bibencoding=utf8, uniquename=false, uniquelist=false, natbib=true]{biblatex}
+\renewcommand*{\bibfont}{\scriptsize}
+
+% Remove quotation marks from titles
+\DeclareFieldFormat[article,incollection,inproceedings,conference]{title}{#1} 
+
+% Define a custom color for the title box
+\definecolor{myblue}{RGB}{44, 62, 80}
+
+\addbibresource{bibliographie.bib} 
+
+\author{Ljudmila PETKOVI\'C}
+\title{\textbf{\textsc{M2SOL034} Corpus, ressources et linguistique outillée}}
+
+\begin{document}
+	
+	% Insert the logo at the top (centered)
+	\begin{center}
+		\includegraphics[width=3cm]{img/logo.png} % Adjust width as needed
+	\end{center}
+	
+	% Create a rectangle around the title
+	\begin{tcolorbox}[colback=myblue!10, colframe=myblue, width=\textwidth, sharp corners, boxrule=1pt]
+		\centering
+		\Large \textbf{\textsc{M2SOL034} Corpus, ressources et linguistique outillée\\{\large\textsc{TD 5} : \texttt{spaCy}}}
+	\end{tcolorbox}
+	
+	\begin{center}
+		Ljudmila PETKOVI\'C
+		
+		{\small Sorbonne Université\\Master \og{}Langue et Informatique\fg{} (\textsc{M1} ScLan)\\\textsc{UFR} Sociologie et Informatique pour les Sciences Humaines\\Semestre 2, 2024-2025, le \today}
+	\end{center}
+	
+
+
+		
+	% Hyperlinked Table of Contents
+	\tableofcontents
+	
+	\bigskip
+	
+\section{Exercices}
+Le présent travail est à effectuer dans le cahier Jupyter créé par Joseph Chazalon disponible à l'adresse suivante :
+
+ \url{https://github.com/ljpetkovic/M2SOL034/tree/main/\_TD/TD5/ressources}
+%\section{Solutions}
+\hline 
+
+		\printbibliography
+
+
+	\centering
+{\small Le contenu de cette présentation est sous licence \texttt{CC-BY-SA 4.0}\\Attribution -- Utilisation (non) commerciale -- Partage dans les mêmes conditions.\\}
+\href{https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr}{\ccbysa}
+	
+\end{document}
