@@ -105,7 +105,7 @@
         <td align="right">5</td>
         <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM5/CM5.pdf">Reconnaissance des entités nommées (REN)</a></td>
         <td align="right">5</td>
-        <td align="center"><code>spaCy</code></td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_TD/TD5/enonce/TD5.pdf"><code>spaCy</code></a></td>
     </tr>
     <tr style="background-color: white;">
         <td align="right">6</td>
