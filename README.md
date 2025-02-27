@@ -103,7 +103,7 @@
         <td align="right">5</td>
         <td align="right">07/03/2025</td>
         <td align="right">5</td>
-        <td align="center">Reconnaissance des entités nommées</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM5/CM5.pdf">Reconnaissance des entités nommées (REN)</a></td>
         <td align="right">5</td>
         <td align="center"><code>spaCy</code></td>
     </tr>
