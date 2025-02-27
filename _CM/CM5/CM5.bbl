@@ -1,0 +1,98 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{ehrmann2018}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=EM}{%
+         family={Ehrmann},
+         familyi={E\bibinitperiod},
+         given={Maud},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rosset},
+         familyi={R\bibinitperiod},
+         given={Sophie},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EMRS1}
+    \strng{fullhash}{EMRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{howpublished}{Diapositives,
+  \url{https://github.com/BigDataSpeech/EN/blob/gh-pages/docs/classEN.pdf}}
+    \field{note}{Consulté le \today}
+    \field{title}{Le Traitement des Entités Nommées $\cdot$ définition,
+  ressources, méthodes, applications}
+    \field{year}{2022}
+  \endentry
+
+  \entry{makhoul1999performance}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{4}{}{%
+      {{hash=MJ}{%
+         family={Makhoul},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Kubala},
+         familyi={K\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schwartz},
+         familyi={S\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Weischedel},
+         familyi={W\bibinitperiod},
+         given={Ralph},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Herndon, VA}%
+    }
+    \strng{namehash}{MJ+1}
+    \strng{fullhash}{MJKFSRWR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{Proceedings of DARPA broadcast news workshop}
+  \field{note}{\url{http://ccc.inaoep.mx/~villasen/bib/slot\%20error\%20rate.pdf}}
+    \field{pages}{249\bibrangedash 252}
+    \field{title}{Performance measures for information extraction}
+    \field{year}{1999}
+  \endentry
+\enddatalist
+\endinput
