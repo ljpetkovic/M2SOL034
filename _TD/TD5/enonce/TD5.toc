@@ -1,2 +1,2 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Exercices}{1}{section.1}%
+\contentsline {section}{\numberline {1}Exercices et solutions}{1}{section.1}%

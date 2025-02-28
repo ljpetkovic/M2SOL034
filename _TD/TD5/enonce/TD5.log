@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  25 FEB 2025 20:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  28 FEB 2025 17:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -967,14 +967,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 96.
 
-Overfull \hbox (6.75pt too wide) in paragraph at lines 96--99
+Overfull \hbox (6.75pt too wide) in paragraph at lines 96--97
 [][][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] []
 [][][][][][][] [] [][][][] [] [][][][] [] [][][] [] [][][] [] [][][][][][][][][
 ][]$[][] 
  []
 
 
-LaTeX Warning: Empty bibliography on input line 100.
+LaTeX Warning: Empty bibliography on input line 102.
 
 [1
 
@@ -982,8 +982,14 @@ LaTeX Warning: Empty bibliography on input line 100.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `TD5.out' has not changed.
-(rerunfilecheck)             Checksum: 1E699848C8107AE10D68506320652A00;88.
+
+Package rerunfilecheck Warning: File `TD5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TD5.out':
+(rerunfilecheck)             Before: 1E699848C8107AE10D68506320652A00;88
+(rerunfilecheck)             After:  D533F0C286C59492DD530D8920FF8B2A;159.
 Package logreq Info: Writing requests to 'TD5.run.xml'.
 \openout1 = `TD5.run.xml'.
 
@@ -991,7 +997,7 @@ Package logreq Info: Writing requests to 'TD5.run.xml'.
 Here is how much of TeX's memory you used:
  30128 strings out of 476683
  578514 string characters out of 5804046
- 1852018 words of memory out of 5000000
+ 1853018 words of memory out of 5000000
  49960 multiletter control sequences out of 15000+600000
  512766 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
