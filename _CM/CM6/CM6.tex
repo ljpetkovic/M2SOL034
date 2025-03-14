@@ -1,0 +1,516 @@
+\documentclass[xetex,xcolor={table,usenames,dvipsnames}]{beamer}
+\usepackage{ragged2e} % Ensure ragged2e is included
+\usepackage{beamerthemesplit}
+\usepackage[utf8]{inputenc}
+\usepackage{ccicons}
+\usepackage[T1]{fontenc}
+\usepackage[english,french]{babel}
+\usepackage{times}
+\usepackage{tabularx}
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs, siunitx}
+\usepackage{dsfont}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{soul}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{bbding}
+\usepackage{listings}
+\definecolor{mygray}{rgb}{0.8,0.8,0.8}
+\lstset{%
+	basicstyle=\ttfamily,
+	breaklines = true,
+	backgroundcolor=\color{mygray},
+}
+\usepackage{realboxes}
+
+\DeclareDocumentCommand{\clist}{v}{%
+	\Colorbox{mygray}{\csname lstinline\endcsname!#1!}%
+}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[style=authoryear, maxbibnames=99, mincitenames=1, maxcitenames=2, backref=true, hyperref=true, dashed=false, firstinits=true, backend=bibtex, bibencoding=utf8, uniquename=false, uniquelist=false, natbib=true]{biblatex}
+\renewcommand*{\bibfont}{\scriptsize}
+\setbeamerfont{footnote}{size=\tiny}
+
+% Remove quotation marks from titles
+\DeclareFieldFormat[article,incollection,inproceedings,conference]{title}{#1} 
+
+\usepackage{makecell}
+
+\usepackage{capt-of}
+
+\usepackage{xcolor}
+\usepackage{shadowtext} 
+% Define a custom color for lavender
+\definecolor{lavender}{RGB}{230,230,250}
+\definecolor{deepred}{RGB}{201,10,77}
+\definecolor{deepblue}{RGB}{55,66,136}
+
+\usepackage{hyperref}
+ 
+ \hypersetup{
+    colorlinks=true,      % Enable colored links
+   linkcolor=violet,        % Color for internal links (sections, equations, etc.)
+    citecolor=BlueViolet,      % Color for citations
+    filecolor=magenta,    % Color for file links
+    urlcolor=blue         % Color for URLs
+}
+
+\mode<presentation>
+{
+\usetheme{metropolis}
+
+
+\setbeamercolor{header}{bg=MidnightBlue, fg=white} % Dark theme header
+\setbeamercolor{progressdots}{fg=white} % Color for navigation dots
+
+\setbeamertemplate{headline}{%
+	% First row: Section Titles
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex,center]{header}
+		\textbf{\insertsectionnavigationhorizontal{\paperwidth}{}{}}
+	\end{beamercolorbox}
+	
+	% Second row: Navigation Dots (one per frame under each section)
+	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5ex,dp=0ex,center]{progressdots}
+		\hspace{5pt} % Adjust spacing
+		\foreach \sec in \inserttotalsections { % Loop through sections
+			\foreach \fr in {1,...,\insertsectionframe} { % Loop through frames in section
+				\ifnum\fr=\insertframeinsection
+				{\color{white}●} % Highlight current frame in section
+				\else
+				{\color{gray}○} % Other frames in section
+				\fi
+				\hspace{3pt} % Adjust spacing between dots
+			}
+			\hspace{10pt} % Space between sections
+		}
+	\end{beamercolorbox}
+}
+
+\setbeamertemplate{footline}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1ex,leftskip=3mm,rightskip=3mm]{footline}
+		\hspace{3mm} \textbf{Ljudmila PETKOVI\'C} \hfill
+		\textbf{\textsc{M2SOL034} : Reconnaissance des entités nommées (\textsc{REN})} \hfill
+		\textbf{\today} \hspace{3mm}
+	\end{beamercolorbox}%
+}
+
+
+\setbeamertemplate{headline}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2ex,dp=1ex,center]{frametitle}
+		\insertsectionnavigationhorizontal{\paperwidth}{}{}
+	\end{beamercolorbox}%
+}
+\setbeamertemplate{footline}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=4ex,dp=1ex,leftskip=3mm,rightskip=3mm]{footline}
+		\hspace{3mm} 
+		\textcolor{gray}{\textbf{Ljudmila PETKOVI\'C}} \hfill
+		\textcolor{gray}{\textbf{\textsc{M2SOL034} : Présentations des travaux de recherche des étudiant$\cdot$e$\cdot$s}} \hfill 
+		\textcolor{gray}{\textbf{\today}} \hspace{3mm}
+		\textcolor{gray}{\textbf{\insertframenumber{} / \inserttotalframenumber}} \hspace{3mm} % Page number in bottom-right
+	\end{beamercolorbox}%
+	
+	% Add the logo only if we're NOT on the title slide
+	\ifnum\insertframenumber>0
+	\begin{textblock*}{2.5cm}(\paperwidth-2cm,1\textheight) % Move slightly down and right
+		\includegraphics[width=1.2cm]{img/logo.png} % Adjusted logo size
+	\end{textblock*}
+	\fi
+}
+
+
+
+
+
+
+
+
+
+%\usecolortheme{beaver}
+\usefonttheme{professionalfonts}
+}
+
+
+
+
+
+
+
+\usepackage{listings}
+
+\lstset{ 
+  language=C,                     % Set language
+  basicstyle=\ttfamily\small,      % Set basic style to small monospaced font
+  keywordstyle=\color{blue},       % Set keywords in blue
+  commentstyle=\color{gray},       % Set comments in gray
+  stringstyle=\color{red},         % Set strings in red
+  numbers=left,                    % Line numbers on the left
+  numberstyle=\tiny\color{gray},   % Style for line numbers
+  stepnumber=1,                    % Line number step
+  showstringspaces=false,          % Don't show spaces in strings
+  tabsize=4,                       % Set tab size
+  breaklines=true,                 % Break long lines
+  captionpos=b                     % Caption position bottom
+}
+
+\usepackage[font=scriptsize,justification=centering]{caption}
+\setbeamercolor{normal text}{fg=black,bg=black}
+\setbeamercolor{frametitle}{fg=purple,bg=white}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{title}{fg=purple}
+\setbeamercolor{subtitle}{fg=purple}
+\setbeamercolor{section in toc}{fg=purple}
+\setbeamercolor{footline}{fg=purple,bg=white}
+%\setbeamercolor{block title}{fg=purple,bg=white}
+%\setbeamercolor{block body}{fg=white,bg=black}
+
+\newcommand{\bolder}[1]{{\color{purple}\bfseries#1}}
+\newcommand{\bolderblue}[1]{{\color{deepblue}\bfseries#1}}
+
+% Define a custom shaded bullet
+\newcommand{\shadedbullet}{\tikz[baseline=-0.5ex] \shade[ball color=MidnightBlue] (0,0) circle (0.5ex);}
+
+
+\beamertemplatetransparentcovered
+\beamerboxesdeclarecolorscheme{myalert}{red}{black!5!averagebackgroundcolor}
+\beamerboxesdeclarecolorscheme{mybox}{blue}{black!5!averagebackgroundcolor}
+
+
+%% Customize the colors for the footer
+%\setbeamercolor{footline}{bg=white,fg=violet} % Set background to violet and text to white
+%\setbeamercolor{footline title}{bg=white,fg=violet}
+%\setbeamercolor{footline section}{bg=white,fg=violet}
+%\setbeamercolor{footline page}{bg=white,fg=violet}
+%
+%% Customize the footer
+%\setbeamertemplate{footline}{%
+%  \leavevmode%
+%  \hbox{%
+%    \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1ex,leftskip=3mm,rightskip=3mm,center]{footline title}%
+%      \usebeamerfont{author in head/foot}\insertshorttitle
+%    \end{beamercolorbox}%
+%    \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1ex,center]{footline section}%
+%      \usebeamerfont{author in head/foot}\insertsection
+%    \end{beamercolorbox}%
+%    \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1ex,right,center]{footline page}%
+%      \usebeamerfont{author in head/foot}\insertframenumber{} / \inserttotalframenumber
+%    \end{beamercolorbox}%
+%  }%
+%  \vskip0pt%
+%}
+
+\setbeamercolor{block title}{bg=violet,fg=white}
+\setbeamercolor{block body}{bg=lavender,fg=black}
+
+
+ \newcommand{\cf}{\textit{cf.} }
+ \newcommand{\ie}{\textit{i.e.} }
+ \newcommand{\ev}{espace vectoriel }
+ \newcommand{\ssi}{si et seulement si }
+
+
+
+
+\newcommand{\espc}[1]{\esp\left[ #1 \right]}
+
+\newcommand{\defe}{\stackrel{\mbox{\begin{tiny}
+ déf
+ \end{tiny}}}{=}}
+ \newcommand{\tend}[2]{\mathop{\longrightarrow}\limits_{#1\rightarrow #2}}
+
+\newcommand{\rem}{\noindent\textbf{Remark : }}
+\newcommand{\rems}{\textbf{Remarques: }}
+
+\newcommand{\exs}{\textbf{Exemples: }}
+
+\newcommand{\imp}[1]{\textbf{\textit{#1}}}
+
+
+%\newtheorem{lem}{\textbf{Lemma}} 
+%\newtheorem{theo}{\textbf{Theorem}} %[section]
+%\newtheorem{prop}{\textbf{Proposition}}%[chapter]
+%\newtheorem{coro}{\textbf{Corollary}}%[chapter]
+%\newtheorem{hyp}{\textbf{Hypothesis}}
+%\newtheorem{defi}{\textbf{Definition}}
+%\newtheorem{pdefi}{\textbf{Proposition-D\'{e}finition}}
+
+%\newenvironment{proof}[1][Proof : ]{\begin{trivlist}
+%\item[\hskip \labelsep {\bfseries #1}]}{\hfill $\Box$\end{trivlist}}
+%
+%\newtheorem{lem}{\textbf{Lemme}} 
+%\newtheorem{theo}{\textbf{Théorème}} %[section]
+%\newtheorem{prop}{\textbf{Proposition}}%[chapter]
+%\newtheorem{coro}{\textbf{Corollaire}}%[chapter]
+%\newtheorem{hyp}{\textbf{Hypothèses}}
+%\newtheorem{defi}{\textbf{Définition}}
+%\newtheorem{pdefi}{\textbf{Proposition-D\'{e}finition}}
+%\newtheorem{rmq}{\textbf{Remarque}} 
+
+\usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
+
+
+%\font\bbfnt=msbm6
+%\def\bbN{\mbox{\bbfnt N}}
+%\def\bbR{\mbox{\bbfnt R}}
+%\title{Champs aléatoires gaussiens}
+%\author{Victor Rabiet}
+%\institute{EMSE}
+%\date[APSSE]{Présentation du 17 décembre 2015}
+
+%===================================================
+%===================================================
+\usepackage{etoolbox} % Required for \apptocmd
+
+% Make subitems smaller
+\makeatletter
+\patchcmd{\itemize}
+{\def\makelabel}
+{\setlength{\itemsep}{2pt} % Adjust spacing if needed
+	\def\makelabel{\textbf{\scriptsize}}} % Change to \small, \footnotesize, or \scriptsize
+{}
+{}
+\makeatother
+
+% Make subsubitems even smaller
+\makeatletter
+\patchcmd{\itemize}
+{\def\makelabel}
+{\setlength{\itemsep}{1pt} % Adjust spacing
+	\def\makelabel{\textbf{\tiny}}} % Use a smaller font size
+{}
+{}
+\makeatother
+
+% Change subitem bullets to circles
+\setbeamertemplate{itemize subitem}{\raisebox{0.15em}{\scriptsize$\circ$}}
+
+% Optionally, change subsubitem bullets to smaller circles
+%\setbeamertemplate{itemize subsubitem}{\raisebox{0.15em}{\tiny$\circ$}}
+
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{textblock*}{2cm}(11.5cm,0.2cm) % Adjust position here
+
+\end{textblock*}}
+
+
+\addbibresource{bibliographie.bib}
+
+
+\let\oldnocite\nocite
+\makeatletter
+\renewcommand*{\nocite}[1]{\oldnocite{#1}\Hy@backout{#1}}
+\makeatother
+
+\renewcommand*{\bibfont}{\footnotesize}
+
+\DeclareCiteCommand{\cite}
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{\usebibmacro{cite}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{\usebibmacro{citeyear}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{\usebibmacro{cite}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\parencite}[\mkbibparens]
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{\usebibmacro{citeyear}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcite}[\mkbibfootnote]
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{ \usebibmacro{cite}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcitetext}[\mkbibfootnotetext]
+{\usebibmacro{prenote}}
+{\usebibmacro{citeindex}%
+	\printtext[bibhyperref]{\usebibmacro{cite}}}
+{\multicitedelim}
+{\usebibmacro{postnote}}
+
+
+
+
+
+%\DeclareCiteCommand{\textcite}
+%  {\boolfalse{cbx:parens}}
+%  {\usebibmacro{citeindex}%
+	%   \printtext[bibhyperref]{\usebibmacro{textcite}}}
+%  {\ifbool{cbx:parens}
+	%     {\bibcloseparen\global\boolfalse{cbx:parens}}
+	%     {}%
+	%   \multicitedelim}
+%  {\usebibmacro{textcite:postnote}}
+
+%\DeclareCiteCommand{\textcite}
+%{\usebibmacro{cite:init}%
+%	\usebibmacro{prenote}}
+%{\usebibmacro{citeindex}%
+%	\printtext[bibhyperref]{\usebibmacro{textcite}}}
+%{}
+%{\printtext[bibhyperref]{\usebibmacro{textcite:postnote}}%
+%	\usebibmacro{cite:post}}
+
+%\DeclareCiteCommand{\textcite}
+%{\usebibmacro{prenote}}
+%{\printnames[final={\&}]{author} \bibhyperref{(\printfield{year})}}
+%{\multicitedelim}
+%{\usebibmacro{postnote}}
+
+
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+\tikzset{
+	->, % makes the edges directed
+	>=stealth', % makes the arrow heads bold
+	node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
+	every state/.style={thick, fill=gray!10}, % sets the properties for each ’state’ node
+	initial text=$ $, % sets the text that appears on the start arrow
+}
+	
+\DefineBibliographyStrings{french}{%
+	backrefpage = {voir p\adddot},%
+	backrefpages = {voir pp\adddot}%
+}
+\DeclareFieldFormat{pagerefformat}{\mkbibparens{{\color{red}\mkbibemph{#1}}}}
+\renewbibmacro*{pageref}{%
+	\iflistundef{pageref}
+	{}
+	{\printtext[pagerefformat]{%
+			\ifnumgreater{\value{pageref}}{1}
+			{\bibstring{backrefpages}\ppspace}
+			{\bibstring{backrefpage}\ppspace}%
+			\printlist[pageref][-\value{listtotal}]{pageref}}}}
+
+
+% Define 3D Ball Bullet for 1st Level
+\setbeamertemplate{itemize item}{\tikz[baseline=-0.5ex] \shade[ball color=MidnightBlue] (0,0) circle (0.5ex);}  
+
+% Define 2nd Level: Blue Circle with White Center
+\setbeamertemplate{itemize subitem}{\tikz[baseline=-0.5ex] \draw[fill=white, draw=blue, line width=0.5pt] (0,0) circle (0.3ex);}
+
+% Define Shaded Triangle for 3rd Level
+\newcommand{\shadedtriangle}{%
+	\tikz[baseline=-0.5ex] \shade[shading=axis, left color=gray, right color=black] 
+	(0,0) -- (0.7ex, 0.5ex) -- (0, 1ex) -- cycle;
+}
+\setbeamertemplate{itemize subsubitem}{\shadedtriangle}  % Apply the shaded triangle to 3rd level
+
+\begin{document}
+
+
+\title{{\large Corpus, ressources et linguistique outillée $\cdot$ \textsc{M2SOL034}}}
+\subtitle{CM 6 : Présentations des travaux de recherche des étudiant$\cdot$e$\cdot$s}
+\author{\footnotesize{Ljudmila PETKOVI\'C}}
+\institute{{\scriptsize Sorbonne Université\\Master \og{}Langue et Informatique\fg{} (\textsc{M1} ScLan)\\\textsc{UFR} Sociologie et Informatique pour les Sciences Humaines}\\~\\{\tiny Cours adapté de \textcite{fort}.}}
+\date{\scriptsize{Semestre 2, 2024-2025\\\today}}
+
+
+
+
+
+	\frame{\titlepage}
+	
+	% Outline frame
+	\begin{frame}{Outline}
+		\tableofcontents
+	\end{frame}
+
+\section{Consignes générales}
+
+\begin{frame}{Consignes générales}
+	\begin{itemize}
+		\item \underline{sujet} : dans le domaine du \bolderblue{TAL} ou de la \bolderblue{linguistique outillée}
+		\begin{itemize}
+			\item Les sujets de mémoire sont également acceptés.
+		\end{itemize} 
+		\item \underline{type de présentation} : \bolderblue{orale} (avec \bolderblue{supports}, si possible) ;
+		\begin{itemize}
+			\item supports : PowerPoint, LaTeX ou tout autre support, chaque diapositive illustrant un aspect de la présentation
+			\begin{itemize}
+				\item Introduction, Méthodologie, Résultats, Analyse, Conclusion
+			\end{itemize}
+		\end{itemize}
+		\item \underline{travail \bolderblue{en binôme}} : possible ;
+		\item \underline{temps de présentation} : \bolderblue{10 minutes} maximum 
+		\begin{itemize}
+			\item Si vous travaillez en binôme, veillez à répartir le temps de présentation équitablement.
+		\end{itemize}
+		\item participe de la \underline{note finale} (\bolderblue{1/3})
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Sur le fond}
+	\begin{itemize}
+	\item 	Être pédagogique :
+	\begin{itemize}
+		\item être clair
+		\item être sobre
+		\item rendre accessible
+	\end{itemize}
+	
+	\item Adopter un ton académique
+	
+	\item Être un public :
+	\begin{itemize}
+		\item actif
+		\item bienveillant
+	\end{itemize}
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Citation}
+	\begin{itemize}
+		\item la citation des sources renforce votre propos $\rightarrow$ état de l'art
+		\item respecter le droit d'auteur (images, texte etc.) $\rightarrow$ licences
+	\end{itemize}
+\end{frame}
+
+%\begin{frame}{Le \og{}matériau\fg{} de départ}
+%	 
+%			\begin{figure}[h] % Use [H] to force the figure to stay in place
+%			\centering
+%			\includegraphics[width=.6\linewidth]{img/materiau_depart.png}
+%			\label{fig:ling_out_TAL}
+%			\caption{Unités lexicales considérées comme des \textsc{EN}.}
+%		\end{figure}
+%
+%\end{frame}
+
+
+
+\begin{frame}[allowframebreaks]
+		\printbibliography
+\end{frame}
+
+
+
+
+\begin{frame}{Licence}
+	\centering
+	{\small Le contenu de cette présentation est sous licence \texttt{CC-BY-NC-SA 4.0}\\Utilisation non commerciale -- Partage dans les mêmes conditions.\\}
+	\href{https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr}{\ccbyncsa}
+\end{frame}
+
+\end{document}
