@@ -113,7 +113,7 @@
         <td align="right">6</td>
         <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM6/CM6.pdf">Présentations des étudiant·e·s</a></td>
         <td align="right">6</td>
-        <td align="center">Présentations des étudiant·e·s</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM6/CM6.pdf">Présentations des étudiant·e·s</a></td>
     </tr>
 </table>
 
