@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 MAR 2025 13:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.10)  14 MAR 2025 17:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1894,24 +1894,24 @@ File: beamericonarticle.pdf Graphic file (type pdf)
 
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 505.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 506.
 
 Missing character: There is no ​ (U+200B) in font [lmromancaps10-regular]:mappi
 ng=tex-text;!
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 505.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 506.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 505.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 506.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 505.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 506.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
 [7
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.95pt on input line 514.
+(Font)              scaled to size 10.95pt on input line 515.
 File: img/logo.png Graphic file (type bmp)
 <img/logo.png>
  [8
@@ -1939,7 +1939,7 @@ Package logreq Info: Writing requests to 'CM6.run.xml'.
 Here is how much of TeX's memory you used:
  48355 strings out of 476683
  1085218 string characters out of 5804046
- 1861018 words of memory out of 5000000
+ 1862018 words of memory out of 5000000
  67747 multiletter control sequences out of 15000+600000
  523845 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
