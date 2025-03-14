@@ -111,7 +111,7 @@
         <td align="right">6</td>
         <td align="right">14/03/2025</td>
         <td align="right">6</td>
-        <td align="center">Présentations des étudiant·e·s</td>
+        <td align="center"><a href="https://github.com/ljpetkovic/M2SOL034/blob/main/_CM/CM6/CM6.pdf">Présentations des étudiant·e·s</a></td>
         <td align="right">6</td>
         <td align="center">Présentations des étudiant·e·s</td>
     </tr>
@@ -146,7 +146,7 @@ Les projets seront à réaliser sur ordinateur.
 
 ### Citer ce dépôt
 
-Ljudmila Petkovic, _Corpus, ressources et linguistique outillée (M2SOL034)_, Paris : université Sorbonne Université, 2025 https://github.com/ljpetkovic/M2SOL034
+Ljudmila Petkovic, _Corpus, ressources et linguistique outillée (M2SOL034)_, Paris : université Sorbonne Université, 2025 <a href="https://github.com/ljpetkovic/M2SOL034">`https://github.com/ljpetkovic/M2SOL034`</a>
 
 ---
 
@@ -158,6 +158,6 @@ Ljudmila Petkovic, _Corpus, ressources et linguistique outillée (M2SOL034)_, Pa
 
 ### Licence
 
-<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" alt="68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f322e302f38387833312e706e67" style="zoom:80%;" />
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="68747470733a2f2f692e6372656174697665636f6d6d6f6e732e6f72672f6c2f62792f322e302f38387833312e706e67" style="zoom:80%;" /></a>
 
 Ce travail est autorisé sous une licence [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
